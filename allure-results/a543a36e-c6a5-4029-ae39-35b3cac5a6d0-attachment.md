@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=e5] [cursor=pointer]
+    - generic [ref=e7]:
+      - heading "File Downloader" [level=3] [ref=e8]
+      - link "testing.mp3" [ref=e9] [cursor=pointer]:
+        - /url: download/testing.mp3
+      - link "dummy-person-image.png" [ref=e10] [cursor=pointer]:
+        - /url: download/dummy-person-image.png
+      - link "profile (2).conf" [ref=e11] [cursor=pointer]:
+        - /url: download/profile (2).conf
+      - link "5ed0bc59411f1356d4fdf40b_dummy-person.png" [ref=e12] [cursor=pointer]:
+        - /url: download/5ed0bc59411f1356d4fdf40b_dummy-person.png
+      - link "70C0862B-BEBF-425F-94AE-78D3CDEE6962.png" [ref=e13] [cursor=pointer]:
+        - /url: download/70C0862B-BEBF-425F-94AE-78D3CDEE6962.png
+      - link "evidence.png" [ref=e14] [cursor=pointer]:
+        - /url: download/evidence.png
+      - link "99018009_RL.pdf" [ref=e15] [cursor=pointer]:
+        - /url: download/99018009_RL.pdf
+      - link "20MB.bin" [ref=e16] [cursor=pointer]:
+        - /url: download/20MB.bin
+      - link "Jpeg_with_exif.jpeg" [ref=e17] [cursor=pointer]:
+        - /url: download/Jpeg_with_exif.jpeg
+      - link "sample_katalon.groovy" [ref=e18] [cursor=pointer]:
+        - /url: download/sample_katalon.groovy
+      - link "app.py" [ref=e19] [cursor=pointer]:
+        - /url: download/app.py
+      - link "bb.txt" [ref=e20] [cursor=pointer]:
+        - /url: download/bb.txt
+      - link "testing.pdf" [ref=e21] [cursor=pointer]:
+        - /url: download/testing.pdf
+      - link "WhatsApp Image 2025-11-25 at 14.42.01_83eca7f7.jpg" [ref=e22] [cursor=pointer]:
+        - /url: download/WhatsApp Image 2025-11-25 at 14.42.01_83eca7f7.jpg
+      - link "selenium_demo_zhazpvol.txt" [ref=e23] [cursor=pointer]:
+        - /url: download/selenium_demo_zhazpvol.txt
+      - link "test_file.txt" [ref=e24] [cursor=pointer]:
+        - /url: download/test_file.txt
+      - link "LambdaTest.txt" [ref=e25] [cursor=pointer]:
+        - /url: download/LambdaTest.txt
+      - link "sample.pdf" [ref=e26] [cursor=pointer]:
+        - /url: download/sample.pdf
+      - link "Routing table tastic 24 nov.txt" [ref=e27] [cursor=pointer]:
+        - /url: download/Routing table tastic 24 nov.txt
+      - link "selenide-intro.txt" [ref=e28] [cursor=pointer]:
+        - /url: download/selenide-intro.txt
+      - link "selenium_demo_8gvz3dmd.txt" [ref=e29] [cursor=pointer]:
+        - /url: download/selenium_demo_8gvz3dmd.txt
+      - link "photo1685169907.jpeg" [ref=e30] [cursor=pointer]:
+        - /url: download/photo1685169907.jpeg
+      - link "profit_and_loss_2025-01-01_to_2025-10-03.pdf" [ref=e31] [cursor=pointer]:
+        - /url: download/profit_and_loss_2025-01-01_to_2025-10-03.pdf
+      - link "large-test-file.txt" [ref=e32] [cursor=pointer]:
+        - /url: download/large-test-file.txt
+      - link "Screenshot 2025-05-06 000447.png" [ref=e33] [cursor=pointer]:
+        - /url: download/Screenshot 2025-05-06 000447.png
+      - link "SomeFile.txt" [ref=e34] [cursor=pointer]:
+        - /url: download/SomeFile.txt
+      - link "testing.jpeg" [ref=e35] [cursor=pointer]:
+        - /url: download/testing.jpeg
+      - link "sample3.pdf" [ref=e36] [cursor=pointer]:
+        - /url: download/sample3.pdf
+      - link "sample-zip-file.zip" [ref=e37] [cursor=pointer]:
+        - /url: download/sample-zip-file.zip
+      - link "20241007_123123 (3).jpg" [ref=e38] [cursor=pointer]:
+        - /url: download/20241007_123123 (3).jpg
+      - link "Resume (5).pdf" [ref=e39] [cursor=pointer]:
+        - /url: download/Resume (5).pdf
+      - link "Doodle.jpg" [ref=e40] [cursor=pointer]:
+        - /url: download/Doodle.jpg
+      - link "workpic.jpg" [ref=e41] [cursor=pointer]:
+        - /url: download/workpic.jpg
+      - link "sample.txt" [ref=e42] [cursor=pointer]:
+        - /url: download/sample.txt
+      - link "some-file.txt" [ref=e43] [cursor=pointer]:
+        - /url: download/some-file.txt
+      - link "test.pdf" [ref=e44] [cursor=pointer]:
+        - /url: download/test.pdf
+      - link "fac1.xml" [ref=e45] [cursor=pointer]:
+        - /url: download/fac1.xml
+      - link "sm.jpg" [ref=e46] [cursor=pointer]:
+        - /url: download/sm.jpg
+      - link "test-image.png" [ref=e47] [cursor=pointer]:
+        - /url: download/test-image.png
+      - link "file.json" [ref=e48] [cursor=pointer]:
+        - /url: download/file.json
+      - link "shrek.png" [ref=e49] [cursor=pointer]:
+        - /url: download/shrek.png
+      - link "test-upload.txt" [ref=e50] [cursor=pointer]:
+        - /url: download/test-upload.txt
+      - link "arquivo.txt" [ref=e51] [cursor=pointer]:
+        - /url: download/arquivo.txt
+      - link "upload-me.txt" [ref=e52] [cursor=pointer]:
+        - /url: download/upload-me.txt
+      - link "spectrum-logo.png" [ref=e53] [cursor=pointer]:
+        - /url: download/spectrum-logo.png
+      - link "workpic.png" [ref=e54] [cursor=pointer]:
+        - /url: download/workpic.png
+      - link "example.txt" [ref=e55] [cursor=pointer]:
+        - /url: download/example.txt
+      - link "playwright.config.ts" [ref=e56] [cursor=pointer]:
+        - /url: download/playwright.config.ts
+      - link "When Shadows Collide.docx" [ref=e57] [cursor=pointer]:
+        - /url: download/When Shadows Collide.docx
+      - link "sample_media_file.png" [ref=e58] [cursor=pointer]:
+        - /url: download/sample_media_file.png
+      - link "Screenshot (5).png" [ref=e59] [cursor=pointer]:
+        - /url: download/Screenshot (5).png
+      - link "hello.txt" [ref=e60] [cursor=pointer]:
+        - /url: download/hello.txt
+      - link "random_data.txt" [ref=e61] [cursor=pointer]:
+        - /url: download/random_data.txt
+      - link "Tejasi_Porwal_CV (2) (2).pdf" [ref=e62] [cursor=pointer]:
+        - /url: download/Tejasi_Porwal_CV (2) (2).pdf
+      - link "sample.png" [ref=e63] [cursor=pointer]:
+        - /url: download/sample.png
+      - link "file.pdf" [ref=e64] [cursor=pointer]:
+        - /url: download/file.pdf
+      - link "ScreenShot_2025-12-02_161454_639.png" [ref=e65] [cursor=pointer]:
+        - /url: download/ScreenShot_2025-12-02_161454_639.png
+      - link "zero_bytes_file.txt" [ref=e66] [cursor=pointer]:
+        - /url: download/zero_bytes_file.txt
+      - link "selenium-snapshot.png" [ref=e67] [cursor=pointer]:
+        - /url: download/selenium-snapshot.png
+  - generic [ref=e69]:
+    - separator [ref=e70]
+    - generic [ref=e71]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=e72] [cursor=pointer]:
+        - /url: http://elementalselenium.com/
+```

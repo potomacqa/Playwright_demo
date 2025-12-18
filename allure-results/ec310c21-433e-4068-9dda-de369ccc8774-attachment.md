@@ -1,0 +1,220 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: IN
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - combobox "Search" [expanded] [ref=e33]: Tu har lamha
+              - button "Clear search query" [ref=e35] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - img
+            - button "Search" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+          - generic [ref=e47]:
+            - button "Search with your voice" [ref=e49] [cursor=pointer]:
+              - generic [ref=e53]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e58]:
+          - button "Settings" [ref=e63] [cursor=pointer]:
+            - generic [ref=e66]:
+              - img
+          - link "Sign in" [ref=e69] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DTu%252Bhar%252Blamha&hl=en&ec=65620
+            - generic [ref=e73]:
+              - img
+            - generic [ref=e74]: Sign in
+    - navigation [ref=e78]:
+      - generic [ref=e79]:
+        - link "Home" [ref=e81] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e84]:
+            - img
+          - generic [ref=e85]: Home
+        - link "Shorts" [ref=e87] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e90]:
+            - img
+          - generic [ref=e91]: Shorts
+        - link "You" [ref=e93] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e96]:
+            - img
+          - generic [ref=e97]: You
+        - link "History" [ref=e99] [cursor=pointer]:
+          - /url: /feed/history
+          - generic [ref=e102]:
+            - img
+          - generic [ref=e103]: History
+    - generic [ref=e104]:
+      - text: •
+      - main [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e108]:
+            - generic [ref=e111]:
+              - tablist [ref=e113]:
+                - tab "All" [selected] [ref=e117] [cursor=pointer]:
+                  - generic [ref=e118]: All
+                - tab "Shorts" [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126]: Shorts
+                - tab "Videos" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: Videos
+                - tab "Unwatched" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]: Unwatched
+                - tab "Watched" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150]: Watched
+                - tab "Recently uploaded" [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]: Recently uploaded
+                - tab "Live" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166]: Live
+                - tab "Sped up" [ref=e173] [cursor=pointer]:
+                  - generic [ref=e174]: Sped up
+                - tab "Karu haske" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182]: Karu haske
+                - tab "Remix" [ref=e189] [cursor=pointer]:
+                  - generic [ref=e190]: Remix
+                - tab "Status" [ref=e197] [cursor=pointer]:
+                  - generic [ref=e198]: Status
+                - tab "Karaoke" [ref=e205] [cursor=pointer]:
+                  - generic [ref=e206]: Karaoke
+                - tab "Guitar lesson" [ref=e213] [cursor=pointer]:
+                  - generic [ref=e214]: Guitar lesson
+              - button "Next" [ref=e222] [cursor=pointer]
+            - generic [ref=e229]:
+              - button "Search filters" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: Filters
+              - tooltip "tooltip"
+          - generic [ref=e243]:
+            - generic [ref=e252] [cursor=pointer]:
+              - link [ref=e253]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_9oKoSUxac6nMuX3v_gP74GGsQXVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBJ4CT9CSpaGBWXzNqkbNEMig6nRigFOeQMn2SJQm9qVA28LJva1WAX702Uhja4xBTv5qpCBvIY6cRUhGARoCHgv2Lt8ORtzYQ6tEK_vd6W9zksRuc9YoHr8o2ILxsei2chm2BEqhAZTGYUm3HTZggAmsjJ4M1iHYYKYYzrGaxtb0lkfVrMHg4rS_caJ9XLGCrVO7OcSOdQfaSAey_Srn2d3zhA3jfTN2TjG0lYqN7_YWTwyaKRAzgQhe0Fz-40Erqf1HnFtHBy1b9_Mgcf5hz3kARkFYmUxPsnCo3CA2reqMDi15SCpjUpe_M2-6IQs3_fg_TZgJggbrwr79hpddxtVTvsEcm-0qvFH_5fMUa7Ic8Q_EyAPpq-rUW4TuwgvsZYgFxszO3FaSBQgIE3iDy6f1GKAGoQGAB56vx-oYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs1aF92NFNDbjlUSagIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLDq4eOio5EDmgkuaHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzlOQ0JDU1pTSlJTQrEJWlQbfRIoqDzICRfICY8ByAnCAboLPwgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMHdmlzaW5yYtALE-ALAdIMAhAB2gwmCgsQgPTzssn134ryARICAQMaDRjGzM7cViCKpoTdwwVAAUoCEB-aDQETqg0CSU7IDQHSDegEaHR0cHM6Ly9zcG90aWZ5LmFwcC5saW5rL0Z1Qm5FbmE3clliPyUyNDNwPWFfZ29vZ2xlX2Fkd29yZHMmJTI0YWx3YXlzX2RlZXBsaW5rPWZhbHNlJiUyNGZhbGxiYWNrX3VybD1odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCJTNGZ2FkX3NvdXJjZSUzRDIlMjZnYWRfY2FtcGFpZ25pZCUzRDIzMjc5Njc0OTUwJn5hZF9zZXRfaWQ9MTg5OTc4OTcyOTM4Jn5jYW1wYWlnbl9pZD0yMzI3OTY3NDk1MCZ-Y2hhbm5lbD0mfmtleXdvcmQ9Jn5wbGFjZW1lbnQ9Jn5hZF9pZD17YWRfaWR9Jn5jcmVhdGl2ZV9pZD03ODUwMjE3NTAxNTAmfmFkX25hbWU9dmlkZW9fdWkmfmFkX2dyb3VwX25hbWU9cGFpZHNvY2lhbF9kZW1hbmRnZW5faW5fZHNrX3dpbmRvd3NfYXBwX2FwcGluc3RhbGxfMXBfYnJvYWRfbm9uZV9ub25lX25vbmVfb2NwbV9hcHBpbnN0YWxsX211bHRpcGxlX2VuK25vdGluc3RhbGxlZCZ-Y2FtcGFpZ249MjAyNXE0X3BlcmZvcm1hbmNlX3NpbmdsZV9wZXJmb3JtYW5jZW1hcmtldGluZ19hcHBpbnN0YWxsX2VuK2luK2luZGlhK2luZGlhKzIwMjUxMTIwK2RlbWFuZGdlbitleHBlcmltZW50YXRpb24rZGVza3RvcCt3aW5kb3dzK25vdGluc3RhbGxlZLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF4QGIdHTHExeuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIjvzh46KjkQMV5fsPCR3vgCFWEAEYASAAEgLsVfD_BwE&num=1&cid=CAASswHkaDVhsfXjWVUzc3nETJpOsFaYLG-APtH0yB7KRUmQVGMvLO01UDV6WK_TAnJU3G3JsqOWnlT-aGTsFKmAnneqeTGMmdrVtYPET0Z_I4VCAKcv_Ao_fbjajLwh4S0iu-bdaoZH8ZvXGcXPxtz3SVZPXtoakW-EmHdxQ5gNEN_G0ZtflJyB0WgUj_4OScUwBijjz95B3yQD-tHPXTDVqLkiKsmWKcks7qFEPoNlyLXmaXeeOw&ad_cpn=%5BCPN%5D&sig=AOD64_2CIhnt8t0J9Ch7zx6go_fJnGbOoQ&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e258]
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - link "Your music, your rules. Play any song you want, when you want." [ref=e269]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_9oKoSUxac6nMuX3v_gP74GGsQXVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBJ4CT9CSpaGBWXzNqkbNEMig6nRigFOeQMn2SJQm9qVA28LJva1WAX702Uhja4xBTv5qpCBvIY6cRUhGARoCHgv2Lt8ORtzYQ6tEK_vd6W9zksRuc9YoHr8o2ILxsei2chm2BEqhAZTGYUm3HTZggAmsjJ4M1iHYYKYYzrGaxtb0lkfVrMHg4rS_caJ9XLGCrVO7OcSOdQfaSAey_Srn2d3zhA3jfTN2TjG0lYqN7_YWTwyaKRAzgQhe0Fz-40Erqf1HnFtHBy1b9_Mgcf5hz3kARkFYmUxPsnCo3CA2reqMDi15SCpjUpe_M2-6IQs3_fg_TZgJggbrwr79hpddxtVTvsEcm-0qvFH_5fMUa7Ic8Q_EyAPpq-rUW4TuwgvsZYgFxszO3FaSBQgIE3iDy6f1GKAGoQGAB56vx-oYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs1aF92NFNDbjlUSagIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLDq4eOio5EDmgkuaHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzlOQ0JDU1pTSlJTQrEJWlQbfRIoqDzICRfICY8ByAnCAboLPwgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMHdmlzaW5yYtALE-ALAdIMAhAB2gwmCgsQgPTzssn134ryARICAQMaDRjGzM7cViCKpoTdwwVAAUoCEB-aDQETqg0CSU7IDQHSDegEaHR0cHM6Ly9zcG90aWZ5LmFwcC5saW5rL0Z1Qm5FbmE3clliPyUyNDNwPWFfZ29vZ2xlX2Fkd29yZHMmJTI0YWx3YXlzX2RlZXBsaW5rPWZhbHNlJiUyNGZhbGxiYWNrX3VybD1odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCJTNGZ2FkX3NvdXJjZSUzRDIlMjZnYWRfY2FtcGFpZ25pZCUzRDIzMjc5Njc0OTUwJn5hZF9zZXRfaWQ9MTg5OTc4OTcyOTM4Jn5jYW1wYWlnbl9pZD0yMzI3OTY3NDk1MCZ-Y2hhbm5lbD0mfmtleXdvcmQ9Jn5wbGFjZW1lbnQ9Jn5hZF9pZD17YWRfaWR9Jn5jcmVhdGl2ZV9pZD03ODUwMjE3NTAxNTAmfmFkX25hbWU9dmlkZW9fdWkmfmFkX2dyb3VwX25hbWU9cGFpZHNvY2lhbF9kZW1hbmRnZW5faW5fZHNrX3dpbmRvd3NfYXBwX2FwcGluc3RhbGxfMXBfYnJvYWRfbm9uZV9ub25lX25vbmVfb2NwbV9hcHBpbnN0YWxsX211bHRpcGxlX2VuK25vdGluc3RhbGxlZCZ-Y2FtcGFpZ249MjAyNXE0X3BlcmZvcm1hbmNlX3NpbmdsZV9wZXJmb3JtYW5jZW1hcmtldGluZ19hcHBpbnN0YWxsX2VuK2luK2luZGlhK2luZGlhKzIwMjUxMTIwK2RlbWFuZGdlbitleHBlcmltZW50YXRpb24rZGVza3RvcCt3aW5kb3dzK25vdGluc3RhbGxlZLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF4QGIdHTHExeuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIjvzh46KjkQMV5fsPCR3vgCFWEAEYASAAEgLsVfD_BwE&num=1&cid=CAASswHkaDVhsfXjWVUzc3nETJpOsFaYLG-APtH0yB7KRUmQVGMvLO01UDV6WK_TAnJU3G3JsqOWnlT-aGTsFKmAnneqeTGMmdrVtYPET0Z_I4VCAKcv_Ao_fbjajLwh4S0iu-bdaoZH8ZvXGcXPxtz3SVZPXtoakW-EmHdxQ5gNEN_G0ZtflJyB0WgUj_4OScUwBijjz95B3yQD-tHPXTDVqLkiKsmWKcks7qFEPoNlyLXmaXeeOw&ad_cpn=%5BCPN%5D&sig=AOD64_2CIhnt8t0J9Ch7zx6go_fJnGbOoQ&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Enjoy full control over your playlists and music with the Spotify desktop app." [ref=e272]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_9oKoSUxac6nMuX3v_gP74GGsQXVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBJ4CT9CSpaGBWXzNqkbNEMig6nRigFOeQMn2SJQm9qVA28LJva1WAX702Uhja4xBTv5qpCBvIY6cRUhGARoCHgv2Lt8ORtzYQ6tEK_vd6W9zksRuc9YoHr8o2ILxsei2chm2BEqhAZTGYUm3HTZggAmsjJ4M1iHYYKYYzrGaxtb0lkfVrMHg4rS_caJ9XLGCrVO7OcSOdQfaSAey_Srn2d3zhA3jfTN2TjG0lYqN7_YWTwyaKRAzgQhe0Fz-40Erqf1HnFtHBy1b9_Mgcf5hz3kARkFYmUxPsnCo3CA2reqMDi15SCpjUpe_M2-6IQs3_fg_TZgJggbrwr79hpddxtVTvsEcm-0qvFH_5fMUa7Ic8Q_EyAPpq-rUW4TuwgvsZYgFxszO3FaSBQgIE3iDy6f1GKAGoQGAB56vx-oYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs1aF92NFNDbjlUSagIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLDq4eOio5EDmgkuaHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzlOQ0JDU1pTSlJTQrEJWlQbfRIoqDzICRfICY8ByAnCAboLPwgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMHdmlzaW5yYtALE-ALAdIMAhAB2gwmCgsQgPTzssn134ryARICAQMaDRjGzM7cViCKpoTdwwVAAUoCEB-aDQETqg0CSU7IDQHSDegEaHR0cHM6Ly9zcG90aWZ5LmFwcC5saW5rL0Z1Qm5FbmE3clliPyUyNDNwPWFfZ29vZ2xlX2Fkd29yZHMmJTI0YWx3YXlzX2RlZXBsaW5rPWZhbHNlJiUyNGZhbGxiYWNrX3VybD1odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCJTNGZ2FkX3NvdXJjZSUzRDIlMjZnYWRfY2FtcGFpZ25pZCUzRDIzMjc5Njc0OTUwJn5hZF9zZXRfaWQ9MTg5OTc4OTcyOTM4Jn5jYW1wYWlnbl9pZD0yMzI3OTY3NDk1MCZ-Y2hhbm5lbD0mfmtleXdvcmQ9Jn5wbGFjZW1lbnQ9Jn5hZF9pZD17YWRfaWR9Jn5jcmVhdGl2ZV9pZD03ODUwMjE3NTAxNTAmfmFkX25hbWU9dmlkZW9fdWkmfmFkX2dyb3VwX25hbWU9cGFpZHNvY2lhbF9kZW1hbmRnZW5faW5fZHNrX3dpbmRvd3NfYXBwX2FwcGluc3RhbGxfMXBfYnJvYWRfbm9uZV9ub25lX25vbmVfb2NwbV9hcHBpbnN0YWxsX211bHRpcGxlX2VuK25vdGluc3RhbGxlZCZ-Y2FtcGFpZ249MjAyNXE0X3BlcmZvcm1hbmNlX3NpbmdsZV9wZXJmb3JtYW5jZW1hcmtldGluZ19hcHBpbnN0YWxsX2VuK2luK2luZGlhK2luZGlhKzIwMjUxMTIwK2RlbWFuZGdlbitleHBlcmltZW50YXRpb24rZGVza3RvcCt3aW5kb3dzK25vdGluc3RhbGxlZLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF4QGIdHTHExeuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIjvzh46KjkQMV5fsPCR3vgCFWEAEYASAAEgLsVfD_BwE&num=1&cid=CAASswHkaDVhsfXjWVUzc3nETJpOsFaYLG-APtH0yB7KRUmQVGMvLO01UDV6WK_TAnJU3G3JsqOWnlT-aGTsFKmAnneqeTGMmdrVtYPET0Z_I4VCAKcv_Ao_fbjajLwh4S0iu-bdaoZH8ZvXGcXPxtz3SVZPXtoakW-EmHdxQ5gNEN_G0ZtflJyB0WgUj_4OScUwBijjz95B3yQD-tHPXTDVqLkiKsmWKcks7qFEPoNlyLXmaXeeOw&ad_cpn=%5BCPN%5D&sig=AOD64_2CIhnt8t0J9Ch7zx6go_fJnGbOoQ&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e273]:
+                      - button "Spotify" [ref=e277]
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: Sponsored
+                        - text: ·
+                      - generic [ref=e284]: Spotify
+                  - button "My Ad Center" [ref=e287]:
+                    - generic [ref=e291]:
+                      - img
+                - generic [ref=e297]:
+                  - link "Watch" [ref=e300]:
+                    - /url: /watch?v=5h_v4SCn9TI
+                    - generic [ref=e301]: Watch
+                  - link "Visit site" [ref=e307]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_9oKoSUxac6nMuX3v_gP74GGsQXVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBJ4CT9CSpaGBWXzNqkbNEMig6nRigFOeQMn2SJQm9qVA28LJva1WAX702Uhja4xBTv5qpCBvIY6cRUhGARoCHgv2Lt8ORtzYQ6tEK_vd6W9zksRuc9YoHr8o2ILxsei2chm2BEqhAZTGYUm3HTZggAmsjJ4M1iHYYKYYzrGaxtb0lkfVrMHg4rS_caJ9XLGCrVO7OcSOdQfaSAey_Srn2d3zhA3jfTN2TjG0lYqN7_YWTwyaKRAzgQhe0Fz-40Erqf1HnFtHBy1b9_Mgcf5hz3kARkFYmUxPsnCo3CA2reqMDi15SCpjUpe_M2-6IQs3_fg_TZgJggbrwr79hpddxtVTvsEcm-0qvFH_5fMUa7Ic8Q_EyAPpq-rUW4TuwgvsZYgFxszO3FaSBQgIE3iDy6f1GKAGoQGAB56vx-oYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs1aF92NFNDbjlUSagIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLDq4eOio5EDmgkuaHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzlOQ0JDU1pTSlJTQrEJWlQbfRIoqDzICRfICY8ByAnCAboLPwgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMHdmlzaW5yYtALE-ALAdIMAhAB2gwmCgsQgPTzssn134ryARICAQMaDRjGzM7cViCKpoTdwwVAAUoCEB-aDQETqg0CSU7IDQHSDegEaHR0cHM6Ly9zcG90aWZ5LmFwcC5saW5rL0Z1Qm5FbmE3clliPyUyNDNwPWFfZ29vZ2xlX2Fkd29yZHMmJTI0YWx3YXlzX2RlZXBsaW5rPWZhbHNlJiUyNGZhbGxiYWNrX3VybD1odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCJTNGZ2FkX3NvdXJjZSUzRDIlMjZnYWRfY2FtcGFpZ25pZCUzRDIzMjc5Njc0OTUwJn5hZF9zZXRfaWQ9MTg5OTc4OTcyOTM4Jn5jYW1wYWlnbl9pZD0yMzI3OTY3NDk1MCZ-Y2hhbm5lbD0mfmtleXdvcmQ9Jn5wbGFjZW1lbnQ9Jn5hZF9pZD17YWRfaWR9Jn5jcmVhdGl2ZV9pZD03ODUwMjE3NTAxNTAmfmFkX25hbWU9dmlkZW9fdWkmfmFkX2dyb3VwX25hbWU9cGFpZHNvY2lhbF9kZW1hbmRnZW5faW5fZHNrX3dpbmRvd3NfYXBwX2FwcGluc3RhbGxfMXBfYnJvYWRfbm9uZV9ub25lX25vbmVfb2NwbV9hcHBpbnN0YWxsX211bHRpcGxlX2VuK25vdGluc3RhbGxlZCZ-Y2FtcGFpZ249MjAyNXE0X3BlcmZvcm1hbmNlX3NpbmdsZV9wZXJmb3JtYW5jZW1hcmtldGluZ19hcHBpbnN0YWxsX2VuK2luK2luZGlhK2luZGlhKzIwMjUxMTIwK2RlbWFuZGdlbitleHBlcmltZW50YXRpb24rZGVza3RvcCt3aW5kb3dzK25vdGluc3RhbGxlZLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF4QGIdHTHExeuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIjvzh46KjkQMV5fsPCR3vgCFWEAEYASAAEgLsVfD_BwE&num=1&cid=CAASswHkaDVhsfXjWVUzc3nETJpOsFaYLG-APtH0yB7KRUmQVGMvLO01UDV6WK_TAnJU3G3JsqOWnlT-aGTsFKmAnneqeTGMmdrVtYPET0Z_I4VCAKcv_Ao_fbjajLwh4S0iu-bdaoZH8ZvXGcXPxtz3SVZPXtoakW-EmHdxQ5gNEN_G0ZtflJyB0WgUj_4OScUwBijjz95B3yQD-tHPXTDVqLkiKsmWKcks7qFEPoNlyLXmaXeeOw&ad_cpn=%5BCPN%5D&sig=AOD64_2CIhnt8t0J9Ch7zx6go_fJnGbOoQ&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e308]: Visit site
+            - generic [ref=e313]:
+              - link [ref=e315] [cursor=pointer]:
+                - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e317] [cursor=pointer]:
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - heading "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran 4 minutes, 22 seconds" [level=3] [ref=e320]:
+                      - link "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran 4 minutes, 22 seconds" [ref=e321]:
+                        - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran
+                    - button "Action menu" [ref=e325]:
+                      - generic [ref=e328]:
+                        - img
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: 73M views
+                    - generic [ref=e333]: •10 years ago
+                - generic [ref=e334]:
+                  - link "Go to channel" [ref=e335]:
+                    - /url: /@sonymusicindiaVEVO
+                  - generic [ref=e336]:
+                    - link "SonyMusicIndiaVEVO" [ref=e340]:
+                      - /url: /@sonymusicindiaVEVO
+                    - img "Verified" [ref=e343]
+                - generic [ref=e345]:
+                  - generic [ref=e346]: "'Tu Har Lamha' from 'Khamoshiyan' is a love ballad by Arijit Singh, composed by Bobby-Imran will rekindle the love in your ..."
+                  - tooltip "tooltip"
+                - img "4K" [ref=e349]:
+                  - generic [ref=e350]: 4K
+            - generic [ref=e352]:
+              - link [ref=e354] [cursor=pointer]:
+                - /url: /watch?v=GqR4gLsjEKc&list=RDGqR4gLsjEKc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+              - generic [ref=e356] [cursor=pointer]:
+                - generic [ref=e357]:
+                  - generic [ref=e358]:
+                    - heading "तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ 4 minutes, 33 seconds" [level=3] [ref=e359]:
+                      - link "तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ 4 minutes, 33 seconds" [ref=e360]:
+                        - /url: /watch?v=GqR4gLsjEKc&list=RDGqR4gLsjEKc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+                        - text: तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ
+                    - button "Action menu" [ref=e364]:
+                      - generic [ref=e367]:
+                        - img
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: 12M views
+                    - generic [ref=e372]: •10 years ago
+                - generic [ref=e373]:
+                  - link "Go to channel" [ref=e374]:
+                    - /url: /@SonyMusicIndia
+                  - generic [ref=e375]:
+                    - link "Sony Music India" [ref=e379]:
+                      - /url: /@SonyMusicIndia
+                    - img "Verified" [ref=e382]
+                - generic [ref=e384]:
+                  - text: सोनी म्यूजिक भारत SME- हिट के लिए घर। सदस्यता लें हमारे चैनल की और चार्ट बस्टर को बनते हुए देखें, ब्लाक बस्टर ...
+                  - tooltip "tooltip"
+            - generic [ref=e386]:
+              - link [ref=e388] [cursor=pointer]:
+                - /url: /watch?v=bOhbq1Nqi6E&list=RDbOhbq1Nqi6E&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e390] [cursor=pointer]:
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - heading "Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [level=3] [ref=e393]:
+                      - link "Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [ref=e394]:
+                        - /url: /watch?v=bOhbq1Nqi6E&list=RDbOhbq1Nqi6E&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics)
+                    - button "Action menu" [ref=e398]:
+                      - generic [ref=e401]:
+                        - img
+                  - generic [ref=e404]:
+                    - generic [ref=e405]: 784K views
+                    - generic [ref=e406]: •7 months ago
+                - generic [ref=e407]:
+                  - link "Go to channel" [ref=e408]:
+                    - /url: /channel/UC
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link:
+                            - /url: /channel/UC
+                - generic [ref=e409]:
+                  - generic [ref=e410]: "Bobby-Imran, Arijit Singh - Tu Har Lamha Listen Here: Discover similar songs on Spotify: https://seventyskye.in/spotify We are on: ..."
+                  - tooltip "tooltip"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - link:
+            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_9oKoSUxac6nMuX3v_gP74GGsQXVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBJ4CT9CSpaGBWXzNqkbNEMig6nRigFOeQMn2SJQm9qVA28LJva1WAX702Uhja4xBTv5qpCBvIY6cRUhGARoCHgv2Lt8ORtzYQ6tEK_vd6W9zksRuc9YoHr8o2ILxsei2chm2BEqhAZTGYUm3HTZggAmsjJ4M1iHYYKYYzrGaxtb0lkfVrMHg4rS_caJ9XLGCrVO7OcSOdQfaSAey_Srn2d3zhA3jfTN2TjG0lYqN7_YWTwyaKRAzgQhe0Fz-40Erqf1HnFtHBy1b9_Mgcf5hz3kARkFYmUxPsnCo3CA2reqMDi15SCpjUpe_M2-6IQs3_fg_TZgJggbrwr79hpddxtVTvsEcm-0qvFH_5fMUa7Ic8Q_EyAPpq-rUW4TuwgvsZYgFxszO3FaSBQgIE3iDy6f1GKAGoQGAB56vx-oYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs1aF92NFNDbjlUSagIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLDq4eOio5EDmgkuaHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzlOQ0JDU1pTSlJTQrEJWlQbfRIoqDzICRfICY8ByAnCAboLPwgDEAUYBCAHKAEwBUABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMHdmlzaW5yYtALE-ALAdIMAhAB2gwmCgsQgPTzssn134ryARICAQMaDRjGzM7cViCKpoTdwwVAAUoCEB-aDQETqg0CSU7IDQHSDegEaHR0cHM6Ly9zcG90aWZ5LmFwcC5saW5rL0Z1Qm5FbmE3clliPyUyNDNwPWFfZ29vZ2xlX2Fkd29yZHMmJTI0YWx3YXlzX2RlZXBsaW5rPWZhbHNlJiUyNGZhbGxiYWNrX3VybD1odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCJTNGZ2FkX3NvdXJjZSUzRDIlMjZnYWRfY2FtcGFpZ25pZCUzRDIzMjc5Njc0OTUwJn5hZF9zZXRfaWQ9MTg5OTc4OTcyOTM4Jn5jYW1wYWlnbl9pZD0yMzI3OTY3NDk1MCZ-Y2hhbm5lbD0mfmtleXdvcmQ9Jn5wbGFjZW1lbnQ9Jn5hZF9pZD17YWRfaWR9Jn5jcmVhdGl2ZV9pZD03ODUwMjE3NTAxNTAmfmFkX25hbWU9dmlkZW9fdWkmfmFkX2dyb3VwX25hbWU9cGFpZHNvY2lhbF9kZW1hbmRnZW5faW5fZHNrX3dpbmRvd3NfYXBwX2FwcGluc3RhbGxfMXBfYnJvYWRfbm9uZV9ub25lX25vbmVfb2NwbV9hcHBpbnN0YWxsX211bHRpcGxlX2VuK25vdGluc3RhbGxlZCZ-Y2FtcGFpZ249MjAyNXE0X3BlcmZvcm1hbmNlX3NpbmdsZV9wZXJmb3JtYW5jZW1hcmtldGluZ19hcHBpbnN0YWxsX2VuK2luK2luZGlhK2luZGlhKzIwMjUxMTIwK2RlbWFuZGdlbitleHBlcmltZW50YXRpb24rZGVza3RvcCt3aW5kb3dzK25vdGluc3RhbGxlZLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF4QGIdHTHExeuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIjvzh46KjkQMV5fsPCR3vgCFWEAEYASAAEgLsVfD_BwE&num=1&cid=CAASswHkaDVhsfXjWVUzc3nETJpOsFaYLG-APtH0yB7KRUmQVGMvLO01UDV6WK_TAnJU3G3JsqOWnlT-aGTsFKmAnneqeTGMmdrVtYPET0Z_I4VCAKcv_Ao_fbjajLwh4S0iu-bdaoZH8ZvXGcXPxtz3SVZPXtoakW-EmHdxQ5gNEN_G0ZtflJyB0WgUj_4OScUwBijjz95B3yQD-tHPXTDVqLkiKsmWKcks7qFEPoNlyLXmaXeeOw&ad_cpn=%5BCPN%5D&sig=AOD64_2CIhnt8t0J9Ch7zx6go_fJnGbOoQ&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+```

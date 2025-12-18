@@ -1,0 +1,877 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: IN
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - combobox "Search" [expanded] [ref=e33]: Tu har lamha
+              - button "Clear search query" [ref=e35] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - img
+            - button "Search" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+          - generic [ref=e47]:
+            - button "Search with your voice" [ref=e49] [cursor=pointer]:
+              - generic [ref=e53]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e58]:
+          - button "Settings" [ref=e63] [cursor=pointer]:
+            - generic [ref=e66]:
+              - img
+          - link "Sign in" [ref=e69] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DTu%252Bhar%252Blamha&hl=en&ec=65620
+            - generic [ref=e73]:
+              - img
+            - generic [ref=e74]: Sign in
+    - navigation [ref=e78]:
+      - generic [ref=e79]:
+        - link "Home" [ref=e81] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e84]:
+            - img
+          - generic [ref=e85]: Home
+        - link "Shorts" [ref=e87] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e90]:
+            - img
+          - generic [ref=e91]: Shorts
+        - link "You" [ref=e93] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e96]:
+            - img
+          - generic [ref=e97]: You
+        - link "History" [ref=e99] [cursor=pointer]:
+          - /url: /feed/history
+          - generic [ref=e102]:
+            - img
+          - generic [ref=e103]: History
+    - generic [ref=e104]:
+      - text: •
+      - main [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e108]:
+            - generic [ref=e111]:
+              - tablist [ref=e113]:
+                - tab "All" [selected] [ref=e117] [cursor=pointer]:
+                  - generic [ref=e118]: All
+                - tab "Shorts" [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126]: Shorts
+                - tab "Videos" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: Videos
+                - tab "Unwatched" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]: Unwatched
+                - tab "Watched" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150]: Watched
+                - tab "Recently uploaded" [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]: Recently uploaded
+                - tab "Live" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166]: Live
+                - tab "Sped up" [ref=e173] [cursor=pointer]:
+                  - generic [ref=e174]: Sped up
+                - tab "Karu haske" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182]: Karu haske
+                - tab "Remix" [ref=e189] [cursor=pointer]:
+                  - generic [ref=e190]: Remix
+                - tab "Status" [ref=e197] [cursor=pointer]:
+                  - generic [ref=e198]: Status
+                - tab "Karaoke" [ref=e205] [cursor=pointer]:
+                  - generic [ref=e206]: Karaoke
+                - tab "Guitar lesson" [ref=e213] [cursor=pointer]:
+                  - generic [ref=e214]: Guitar lesson
+              - button "Next" [ref=e222] [cursor=pointer]
+            - generic [ref=e229]:
+              - button "Search filters" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: Filters
+              - tooltip "tooltip"
+          - generic [ref=e243]:
+            - generic [ref=e252] [cursor=pointer]:
+              - link [ref=e253]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA1Q9qiUxafmuOODM3LUPkuzp2QTVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBLsCT9Dw4vVrSfXlh6bB9bZehVA-3dQB0Q6jA9vT1XY_sKkT3ljpBQ4zr8QCS5kIzM3iz1Osl4mEBfVdyYJ9lUQtZ-UVB7kjm2-sTq_UQnfRSSlHYajLKDqge4LTfuS-ihwnXA9dYoVtwNBOcJDjtSb029_d6NBabyWI2QIGSN-WzLsPRj-nnQnborlmajRr5l2BTaYXT9wWKr6kV5_34teRMV3Ait5tupDJ5zWktQZPeU7kYB_Z0JwnfmPawQuIvuLSrNvVKm0e0I1zbaAwnur4Z6YTOyf6uL0JsaGdnjUV7oHBn6aq-5XV06QTC6_hiwTV9nu3UH_dB_veym99_xRYsYIL4ONZQ6VyHkNuyCygMeQ5Q60Qg_MExx0FgrFJ73fS0I6_s20usFcmOJA4pzIG0qDjgTpQ44ZgoIc6iAXGzM7cVpIFCAgTeIPLp_UYoAahAYAHnq_H6hiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzVoX3Y0U0NuOVRJqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRYqJiN6KKjkQOaCS5odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCsQlaVBt9EiioPMgJF8gJjwHICcIBugs6CAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwJzadALE-ALAdIMAhAB2gwlCgoQ4Jrm98z9xYNYEgIBAxoNGMbMztxWIIqmhN3DBUABSgIQH5oNAROqDQJJTsgNAdIN6ARodHRwczovL3Nwb3RpZnkuYXBwLmxpbmsvRnVCbkVuYTdyWWI_JTI0M3A9YV9nb29nbGVfYWR3b3JkcyYlMjRhbHdheXNfZGVlcGxpbms9ZmFsc2UmJTI0ZmFsbGJhY2tfdXJsPWh0dHBzOi8vYXBwcy5taWNyb3NvZnQuY29tL2RldGFpbC85TkNCQ1NaU0pSU0IlM0ZnYWRfc291cmNlJTNEMiUyNmdhZF9jYW1wYWlnbmlkJTNEMjMyNzk2NzQ5NTAmfmFkX3NldF9pZD0xODk5Nzg5NzI5MzgmfmNhbXBhaWduX2lkPTIzMjc5Njc0OTUwJn5jaGFubmVsPSZ-a2V5d29yZD0mfnBsYWNlbWVudD0mfmFkX2lkPXthZF9pZH0mfmNyZWF0aXZlX2lkPTc4NTAyMTc1MDE1MCZ-YWRfbmFtZT12aWRlb191aSZ-YWRfZ3JvdXBfbmFtZT1wYWlkc29jaWFsX2RlbWFuZGdlbl9pbl9kc2tfd2luZG93c19hcHBfYXBwaW5zdGFsbF8xcF9icm9hZF9ub25lX25vbmVfbm9uZV9vY3BtX2FwcGluc3RhbGxfbXVsdGlwbGVfZW4rbm90aW5zdGFsbGVkJn5jYW1wYWlnbj0yMDI1cTRfcGVyZm9ybWFuY2Vfc2luZ2xlX3BlcmZvcm1hbmNlbWFya2V0aW5nX2FwcGluc3RhbGxfZW4raW4raW5kaWEraW5kaWErMjAyNTExMjArZGVtYW5kZ2VuK2V4cGVyaW1lbnRhdGlvbitkZXNrdG9wK3dpbmRvd3Mrbm90aW5zdGFsbGVkuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXhAYh0dMcTF66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI-auN6KKjkQMVYCa3AB0SdjpLEAEYASAAEgLjZfD_BwE&num=1&cid=CAASswHkaDucw8SFN2U6j-rKBzS9n6Y_OqYc2dQXyNm9AgXxSkHCwz58jZ8DOVKaaw9eYpJJdy7ULEJMZ5MXciMHAaCLxuC5uNpCNMpeompyNuIB4aBeJu9P__oqqQjKWf4ekR7TDlUGyCFHqyBz0m6foYCn0B8UlUn1i9OKHp-YIrySOz-l4DtKcFBtxT2SLThJh_DGSTNaGKPpP9q20cGj3CWYY5ZMdoMp5ugCsDrYHXWIIKDDqg&ad_cpn=%5BCPN%5D&sig=AOD64_2cbupz5uZgDXS0cm-svrijpLbZRg&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e258]
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - link "Your music, your rules. Play any song you want, when you want." [ref=e269]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA1Q9qiUxafmuOODM3LUPkuzp2QTVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBLsCT9Dw4vVrSfXlh6bB9bZehVA-3dQB0Q6jA9vT1XY_sKkT3ljpBQ4zr8QCS5kIzM3iz1Osl4mEBfVdyYJ9lUQtZ-UVB7kjm2-sTq_UQnfRSSlHYajLKDqge4LTfuS-ihwnXA9dYoVtwNBOcJDjtSb029_d6NBabyWI2QIGSN-WzLsPRj-nnQnborlmajRr5l2BTaYXT9wWKr6kV5_34teRMV3Ait5tupDJ5zWktQZPeU7kYB_Z0JwnfmPawQuIvuLSrNvVKm0e0I1zbaAwnur4Z6YTOyf6uL0JsaGdnjUV7oHBn6aq-5XV06QTC6_hiwTV9nu3UH_dB_veym99_xRYsYIL4ONZQ6VyHkNuyCygMeQ5Q60Qg_MExx0FgrFJ73fS0I6_s20usFcmOJA4pzIG0qDjgTpQ44ZgoIc6iAXGzM7cVpIFCAgTeIPLp_UYoAahAYAHnq_H6hiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzVoX3Y0U0NuOVRJqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRYqJiN6KKjkQOaCS5odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCsQlaVBt9EiioPMgJF8gJjwHICcIBugs6CAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwJzadALE-ALAdIMAhAB2gwlCgoQ4Jrm98z9xYNYEgIBAxoNGMbMztxWIIqmhN3DBUABSgIQH5oNAROqDQJJTsgNAdIN6ARodHRwczovL3Nwb3RpZnkuYXBwLmxpbmsvRnVCbkVuYTdyWWI_JTI0M3A9YV9nb29nbGVfYWR3b3JkcyYlMjRhbHdheXNfZGVlcGxpbms9ZmFsc2UmJTI0ZmFsbGJhY2tfdXJsPWh0dHBzOi8vYXBwcy5taWNyb3NvZnQuY29tL2RldGFpbC85TkNCQ1NaU0pSU0IlM0ZnYWRfc291cmNlJTNEMiUyNmdhZF9jYW1wYWlnbmlkJTNEMjMyNzk2NzQ5NTAmfmFkX3NldF9pZD0xODk5Nzg5NzI5MzgmfmNhbXBhaWduX2lkPTIzMjc5Njc0OTUwJn5jaGFubmVsPSZ-a2V5d29yZD0mfnBsYWNlbWVudD0mfmFkX2lkPXthZF9pZH0mfmNyZWF0aXZlX2lkPTc4NTAyMTc1MDE1MCZ-YWRfbmFtZT12aWRlb191aSZ-YWRfZ3JvdXBfbmFtZT1wYWlkc29jaWFsX2RlbWFuZGdlbl9pbl9kc2tfd2luZG93c19hcHBfYXBwaW5zdGFsbF8xcF9icm9hZF9ub25lX25vbmVfbm9uZV9vY3BtX2FwcGluc3RhbGxfbXVsdGlwbGVfZW4rbm90aW5zdGFsbGVkJn5jYW1wYWlnbj0yMDI1cTRfcGVyZm9ybWFuY2Vfc2luZ2xlX3BlcmZvcm1hbmNlbWFya2V0aW5nX2FwcGluc3RhbGxfZW4raW4raW5kaWEraW5kaWErMjAyNTExMjArZGVtYW5kZ2VuK2V4cGVyaW1lbnRhdGlvbitkZXNrdG9wK3dpbmRvd3Mrbm90aW5zdGFsbGVkuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXhAYh0dMcTF66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI-auN6KKjkQMVYCa3AB0SdjpLEAEYASAAEgLjZfD_BwE&num=1&cid=CAASswHkaDucw8SFN2U6j-rKBzS9n6Y_OqYc2dQXyNm9AgXxSkHCwz58jZ8DOVKaaw9eYpJJdy7ULEJMZ5MXciMHAaCLxuC5uNpCNMpeompyNuIB4aBeJu9P__oqqQjKWf4ekR7TDlUGyCFHqyBz0m6foYCn0B8UlUn1i9OKHp-YIrySOz-l4DtKcFBtxT2SLThJh_DGSTNaGKPpP9q20cGj3CWYY5ZMdoMp5ugCsDrYHXWIIKDDqg&ad_cpn=%5BCPN%5D&sig=AOD64_2cbupz5uZgDXS0cm-svrijpLbZRg&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Enjoy full control over your playlists and music with the Spotify desktop app." [ref=e272]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA1Q9qiUxafmuOODM3LUPkuzp2QTVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBLsCT9Dw4vVrSfXlh6bB9bZehVA-3dQB0Q6jA9vT1XY_sKkT3ljpBQ4zr8QCS5kIzM3iz1Osl4mEBfVdyYJ9lUQtZ-UVB7kjm2-sTq_UQnfRSSlHYajLKDqge4LTfuS-ihwnXA9dYoVtwNBOcJDjtSb029_d6NBabyWI2QIGSN-WzLsPRj-nnQnborlmajRr5l2BTaYXT9wWKr6kV5_34teRMV3Ait5tupDJ5zWktQZPeU7kYB_Z0JwnfmPawQuIvuLSrNvVKm0e0I1zbaAwnur4Z6YTOyf6uL0JsaGdnjUV7oHBn6aq-5XV06QTC6_hiwTV9nu3UH_dB_veym99_xRYsYIL4ONZQ6VyHkNuyCygMeQ5Q60Qg_MExx0FgrFJ73fS0I6_s20usFcmOJA4pzIG0qDjgTpQ44ZgoIc6iAXGzM7cVpIFCAgTeIPLp_UYoAahAYAHnq_H6hiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzVoX3Y0U0NuOVRJqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRYqJiN6KKjkQOaCS5odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCsQlaVBt9EiioPMgJF8gJjwHICcIBugs6CAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwJzadALE-ALAdIMAhAB2gwlCgoQ4Jrm98z9xYNYEgIBAxoNGMbMztxWIIqmhN3DBUABSgIQH5oNAROqDQJJTsgNAdIN6ARodHRwczovL3Nwb3RpZnkuYXBwLmxpbmsvRnVCbkVuYTdyWWI_JTI0M3A9YV9nb29nbGVfYWR3b3JkcyYlMjRhbHdheXNfZGVlcGxpbms9ZmFsc2UmJTI0ZmFsbGJhY2tfdXJsPWh0dHBzOi8vYXBwcy5taWNyb3NvZnQuY29tL2RldGFpbC85TkNCQ1NaU0pSU0IlM0ZnYWRfc291cmNlJTNEMiUyNmdhZF9jYW1wYWlnbmlkJTNEMjMyNzk2NzQ5NTAmfmFkX3NldF9pZD0xODk5Nzg5NzI5MzgmfmNhbXBhaWduX2lkPTIzMjc5Njc0OTUwJn5jaGFubmVsPSZ-a2V5d29yZD0mfnBsYWNlbWVudD0mfmFkX2lkPXthZF9pZH0mfmNyZWF0aXZlX2lkPTc4NTAyMTc1MDE1MCZ-YWRfbmFtZT12aWRlb191aSZ-YWRfZ3JvdXBfbmFtZT1wYWlkc29jaWFsX2RlbWFuZGdlbl9pbl9kc2tfd2luZG93c19hcHBfYXBwaW5zdGFsbF8xcF9icm9hZF9ub25lX25vbmVfbm9uZV9vY3BtX2FwcGluc3RhbGxfbXVsdGlwbGVfZW4rbm90aW5zdGFsbGVkJn5jYW1wYWlnbj0yMDI1cTRfcGVyZm9ybWFuY2Vfc2luZ2xlX3BlcmZvcm1hbmNlbWFya2V0aW5nX2FwcGluc3RhbGxfZW4raW4raW5kaWEraW5kaWErMjAyNTExMjArZGVtYW5kZ2VuK2V4cGVyaW1lbnRhdGlvbitkZXNrdG9wK3dpbmRvd3Mrbm90aW5zdGFsbGVkuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXhAYh0dMcTF66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI-auN6KKjkQMVYCa3AB0SdjpLEAEYASAAEgLjZfD_BwE&num=1&cid=CAASswHkaDucw8SFN2U6j-rKBzS9n6Y_OqYc2dQXyNm9AgXxSkHCwz58jZ8DOVKaaw9eYpJJdy7ULEJMZ5MXciMHAaCLxuC5uNpCNMpeompyNuIB4aBeJu9P__oqqQjKWf4ekR7TDlUGyCFHqyBz0m6foYCn0B8UlUn1i9OKHp-YIrySOz-l4DtKcFBtxT2SLThJh_DGSTNaGKPpP9q20cGj3CWYY5ZMdoMp5ugCsDrYHXWIIKDDqg&ad_cpn=%5BCPN%5D&sig=AOD64_2cbupz5uZgDXS0cm-svrijpLbZRg&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e273]:
+                      - button "Spotify" [ref=e277]
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: Sponsored
+                        - text: ·
+                      - generic [ref=e284]: Spotify
+                  - button "My Ad Center" [ref=e287]:
+                    - generic [ref=e291]:
+                      - img
+                - generic [ref=e297]:
+                  - link "Watch" [ref=e300]:
+                    - /url: /watch?v=5h_v4SCn9TI
+                    - generic [ref=e301]: Watch
+                  - link "Visit site" [ref=e307]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA1Q9qiUxafmuOODM3LUPkuzp2QTVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBLsCT9Dw4vVrSfXlh6bB9bZehVA-3dQB0Q6jA9vT1XY_sKkT3ljpBQ4zr8QCS5kIzM3iz1Osl4mEBfVdyYJ9lUQtZ-UVB7kjm2-sTq_UQnfRSSlHYajLKDqge4LTfuS-ihwnXA9dYoVtwNBOcJDjtSb029_d6NBabyWI2QIGSN-WzLsPRj-nnQnborlmajRr5l2BTaYXT9wWKr6kV5_34teRMV3Ait5tupDJ5zWktQZPeU7kYB_Z0JwnfmPawQuIvuLSrNvVKm0e0I1zbaAwnur4Z6YTOyf6uL0JsaGdnjUV7oHBn6aq-5XV06QTC6_hiwTV9nu3UH_dB_veym99_xRYsYIL4ONZQ6VyHkNuyCygMeQ5Q60Qg_MExx0FgrFJ73fS0I6_s20usFcmOJA4pzIG0qDjgTpQ44ZgoIc6iAXGzM7cVpIFCAgTeIPLp_UYoAahAYAHnq_H6hiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzVoX3Y0U0NuOVRJqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRYqJiN6KKjkQOaCS5odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCsQlaVBt9EiioPMgJF8gJjwHICcIBugs6CAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwJzadALE-ALAdIMAhAB2gwlCgoQ4Jrm98z9xYNYEgIBAxoNGMbMztxWIIqmhN3DBUABSgIQH5oNAROqDQJJTsgNAdIN6ARodHRwczovL3Nwb3RpZnkuYXBwLmxpbmsvRnVCbkVuYTdyWWI_JTI0M3A9YV9nb29nbGVfYWR3b3JkcyYlMjRhbHdheXNfZGVlcGxpbms9ZmFsc2UmJTI0ZmFsbGJhY2tfdXJsPWh0dHBzOi8vYXBwcy5taWNyb3NvZnQuY29tL2RldGFpbC85TkNCQ1NaU0pSU0IlM0ZnYWRfc291cmNlJTNEMiUyNmdhZF9jYW1wYWlnbmlkJTNEMjMyNzk2NzQ5NTAmfmFkX3NldF9pZD0xODk5Nzg5NzI5MzgmfmNhbXBhaWduX2lkPTIzMjc5Njc0OTUwJn5jaGFubmVsPSZ-a2V5d29yZD0mfnBsYWNlbWVudD0mfmFkX2lkPXthZF9pZH0mfmNyZWF0aXZlX2lkPTc4NTAyMTc1MDE1MCZ-YWRfbmFtZT12aWRlb191aSZ-YWRfZ3JvdXBfbmFtZT1wYWlkc29jaWFsX2RlbWFuZGdlbl9pbl9kc2tfd2luZG93c19hcHBfYXBwaW5zdGFsbF8xcF9icm9hZF9ub25lX25vbmVfbm9uZV9vY3BtX2FwcGluc3RhbGxfbXVsdGlwbGVfZW4rbm90aW5zdGFsbGVkJn5jYW1wYWlnbj0yMDI1cTRfcGVyZm9ybWFuY2Vfc2luZ2xlX3BlcmZvcm1hbmNlbWFya2V0aW5nX2FwcGluc3RhbGxfZW4raW4raW5kaWEraW5kaWErMjAyNTExMjArZGVtYW5kZ2VuK2V4cGVyaW1lbnRhdGlvbitkZXNrdG9wK3dpbmRvd3Mrbm90aW5zdGFsbGVkuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXhAYh0dMcTF66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI-auN6KKjkQMVYCa3AB0SdjpLEAEYASAAEgLjZfD_BwE&num=1&cid=CAASswHkaDucw8SFN2U6j-rKBzS9n6Y_OqYc2dQXyNm9AgXxSkHCwz58jZ8DOVKaaw9eYpJJdy7ULEJMZ5MXciMHAaCLxuC5uNpCNMpeompyNuIB4aBeJu9P__oqqQjKWf4ekR7TDlUGyCFHqyBz0m6foYCn0B8UlUn1i9OKHp-YIrySOz-l4DtKcFBtxT2SLThJh_DGSTNaGKPpP9q20cGj3CWYY5ZMdoMp5ugCsDrYHXWIIKDDqg&ad_cpn=%5BCPN%5D&sig=AOD64_2cbupz5uZgDXS0cm-svrijpLbZRg&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e308]: Visit site
+            - generic [ref=e313]:
+              - link [ref=e315] [cursor=pointer]:
+                - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                - img [ref=e319]:
+                  - generic [ref=e321]: 4:22
+                - generic:
+                  - generic: Now playing
+                  - generic:
+                    - img
+              - generic [ref=e322] [cursor=pointer]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]:
+                    - heading "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran 4 minutes, 22 seconds" [level=3] [ref=e325]:
+                      - link "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran 4 minutes, 22 seconds" [ref=e326]:
+                        - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran
+                    - button "Action menu" [ref=e330]:
+                      - generic [ref=e333]:
+                        - img
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: 73M views
+                    - generic [ref=e338]: •10 years ago
+                - generic [ref=e339]:
+                  - link "Go to channel" [ref=e340]:
+                    - /url: /@sonymusicindiaVEVO
+                  - generic [ref=e342]:
+                    - link "SonyMusicIndiaVEVO" [ref=e346]:
+                      - /url: /@sonymusicindiaVEVO
+                    - img "Verified" [ref=e349]
+                - generic [ref=e351]:
+                  - generic [ref=e352]: "'Tu Har Lamha' from 'Khamoshiyan' is a love ballad by Arijit Singh, composed by Bobby-Imran will rekindle the love in your ..."
+                  - tooltip "tooltip"
+                - img "4K" [ref=e355]:
+                  - generic [ref=e356]: 4K
+            - generic [ref=e358]:
+              - link [ref=e360] [cursor=pointer]:
+                - /url: /watch?v=GqR4gLsjEKc&list=RDGqR4gLsjEKc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                - img [ref=e364]:
+                  - generic [ref=e366]: 4:33
+                - generic:
+                  - generic: Now playing
+                  - generic:
+                    - img
+              - generic [ref=e367] [cursor=pointer]:
+                - generic [ref=e368]:
+                  - generic [ref=e369]:
+                    - heading "तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ 4 minutes, 33 seconds" [level=3] [ref=e370]:
+                      - link "तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ 4 minutes, 33 seconds" [ref=e371]:
+                        - /url: /watch?v=GqR4gLsjEKc&list=RDGqR4gLsjEKc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ
+                    - button "Action menu" [ref=e375]:
+                      - generic [ref=e378]:
+                        - img
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: 12M views
+                    - generic [ref=e383]: •10 years ago
+                - generic [ref=e384]:
+                  - link "Go to channel" [ref=e385]:
+                    - /url: /@SonyMusicIndia
+                  - generic [ref=e387]:
+                    - link "Sony Music India" [ref=e391]:
+                      - /url: /@SonyMusicIndia
+                    - img "Verified" [ref=e394]
+                - generic [ref=e396]:
+                  - text: सोनी म्यूजिक भारत SME- हिट के लिए घर। सदस्यता लें हमारे चैनल की और चार्ट बस्टर को बनते हुए देखें, ब्लाक बस्टर ...
+                  - tooltip "tooltip"
+            - generic [ref=e398]:
+              - link [ref=e400] [cursor=pointer]:
+                - /url: /watch?v=bOhbq1Nqi6E&list=RDbOhbq1Nqi6E&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e402] [cursor=pointer]:
+                - generic [ref=e403]:
+                  - generic [ref=e404]:
+                    - heading "Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [level=3] [ref=e405]:
+                      - link "Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [ref=e406]:
+                        - /url: /watch?v=bOhbq1Nqi6E&list=RDbOhbq1Nqi6E&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics)
+                    - button "Action menu" [ref=e410]:
+                      - generic [ref=e413]:
+                        - img
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: 784K views
+                    - generic [ref=e418]: •7 months ago
+                - generic [ref=e419]:
+                  - link "Go to channel" [ref=e420]:
+                    - /url: /channel/UC
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link:
+                            - /url: /channel/UC
+                - generic [ref=e422]:
+                  - generic [ref=e423]: "Bobby-Imran, Arijit Singh - Tu Har Lamha Listen Here: Discover similar songs on Spotify: https://seventyskye.in/spotify We are on: ..."
+                  - tooltip "tooltip"
+            - generic [ref=e425] [cursor=pointer]:
+              - link [ref=e426]:
+                - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1
+                - generic [ref=e438]: Mix
+              - generic [ref=e441]:
+                - heading "Mix - Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran" [level=3] [ref=e442]:
+                  - link "Mix - Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran" [ref=e443]:
+                    - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1
+                - generic [ref=e445]:
+                  - generic [ref=e447]: Arijit Singh, Bobby-Imran, Naved Zafar, and more
+                  - link "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran · 4:22" [ref=e451]:
+                    - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1
+                  - link "Subhan Allah - Khamoshiyan|Official Bollywood Lyrics|Anupam Amod · 4:33" [ref=e454]:
+                    - /url: /watch?v=2YiAPTPFisM&list=RDSdGL0qxgZGM&start_radio=1
+            - generic [ref=e457]:
+              - link [ref=e459] [cursor=pointer]:
+                - /url: /watch?v=-Hb2DeHvvEg&list=RD-Hb2DeHvvEg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e461] [cursor=pointer]:
+                - generic [ref=e462]:
+                  - generic [ref=e463]:
+                    - heading "तुझे भूला दिया\" (पूरा गाना) अंजाना अंजानी | रणबीर कपूर, प्रियंका चोपड़ा 4 minutes, 19 seconds" [level=3] [ref=e464]:
+                      - link "तुझे भूला दिया\" (पूरा गाना) अंजाना अंजानी | रणबीर कपूर, प्रियंका चोपड़ा 4 minutes, 19 seconds" [ref=e465]:
+                        - /url: /watch?v=-Hb2DeHvvEg&list=RD-Hb2DeHvvEg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: तुझे भूला दिया" (पूरा गाना) अंजाना अंजानी | रणबीर कपूर, प्रियंका चोपड़ा
+                    - button "Action menu" [ref=e469]:
+                      - generic [ref=e472]:
+                        - img
+                  - generic [ref=e475]:
+                    - generic [ref=e476]: 165M views
+                    - generic [ref=e477]: •14 years ago
+                - generic [ref=e478]:
+                  - link "Go to channel" [ref=e479]:
+                    - /url: /@tseries
+                  - generic [ref=e480]:
+                    - link "T-Series" [ref=e484]:
+                      - /url: /@tseries
+                    - img "Verified" [ref=e487]
+                - generic [ref=e489]:
+                  - text: "\"\" \"संगीत की दुनिया को बदल सकते हैं।\" \"टी-सीरीज भारत की सबसे बड़ी संगीत लेबल और फिल्म स्टूडियो है, दुनिया ..."
+                  - tooltip "tooltip"
+            - generic [ref=e490]:
+              - generic [ref=e493]:
+                - img [ref=e495]
+                - heading "Shorts" [level=2] [ref=e498]
+              - generic [ref=e500]:
+                - generic [ref=e503]:
+                  - link [ref=e504] [cursor=pointer]:
+                    - /url: /shorts/bNrDnaTv4HI
+                  - generic [ref=e507] [cursor=pointer]:
+                    - 'link "When love speaks in silence, you know it’s true. 💫 #tuharlamha #arijitsingh #khamoshiyan" [ref=e508]':
+                      - /url: /shorts/bNrDnaTv4HI
+                    - generic [ref=e509]: 137K views
+                  - button "More actions" [ref=e511] [cursor=pointer]:
+                    - generic [ref=e515]:
+                      - img
+                - generic [ref=e521]:
+                  - link [ref=e522] [cursor=pointer]:
+                    - /url: /shorts/Ou-spsdFPis
+                  - generic [ref=e525] [cursor=pointer]:
+                    - 'link "Tu har lamha, tu har jazba. 💖🎶 #arijitsingh #khamoshiyan #sapnapabbi #alifazal" [ref=e526]':
+                      - /url: /shorts/Ou-spsdFPis
+                    - generic [ref=e527]: 111K views
+                  - button "More actions" [ref=e529] [cursor=pointer]:
+                    - generic [ref=e533]:
+                      - img
+                - generic [ref=e539]:
+                  - link [ref=e540] [cursor=pointer]:
+                    - /url: /shorts/0nbhZG_JBlI
+                  - generic [ref=e543] [cursor=pointer]:
+                    - 'link "When Arijit Singh sings, Tu Har Lamha becomes a feeling. 🎤💞 #tuharlamha #arijitsingh" [ref=e544]':
+                      - /url: /shorts/0nbhZG_JBlI
+                    - generic [ref=e545]: 367K views
+                  - button "More actions" [ref=e547] [cursor=pointer]:
+                    - generic [ref=e551]:
+                      - img
+                - generic [ref=e557]:
+                  - link [ref=e558] [cursor=pointer]:
+                    - /url: /shorts/-3rxHc_JCsM
+                  - generic [ref=e561] [cursor=pointer]:
+                    - 'link "Tu Har Lamha || Arijit Singh || Bobby-Imran || #lyrics #tuharlamha #arijitsingh" [ref=e562]':
+                      - /url: /shorts/-3rxHc_JCsM
+                    - generic [ref=e563]: 114K views
+                  - button "More actions" [ref=e565] [cursor=pointer]:
+                    - generic [ref=e569]:
+                      - img
+                - generic [ref=e575]:
+                  - link [ref=e576] [cursor=pointer]:
+                    - /url: /shorts/coqovd-Gx_A
+                  - generic [ref=e579] [cursor=pointer]:
+                    - 'link "Tu har lamha | Arijit Singh 🥰✨ #arijitsingh" [ref=e580]':
+                      - /url: /shorts/coqovd-Gx_A
+                    - generic [ref=e581]: 34K views
+                  - button "More actions" [ref=e583] [cursor=pointer]:
+                    - generic [ref=e587]:
+                      - img
+              - button "Show more" [ref=e594] [cursor=pointer]:
+                - generic [ref=e595]: Show more
+                - generic [ref=e599]:
+                  - img
+            - generic [ref=e604]:
+              - link [ref=e606] [cursor=pointer]:
+                - /url: /watch?v=w6BOBsiVW3o&list=RDw6BOBsiVW3o&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e608] [cursor=pointer]:
+                - generic [ref=e609]:
+                  - generic [ref=e610]:
+                    - heading "Tu Har Lamha - Arijit Singh Song | Slowed And Reverb Lofi Mix 6 minutes, 3 seconds" [level=3] [ref=e611]:
+                      - link "Tu Har Lamha - Arijit Singh Song | Slowed And Reverb Lofi Mix 6 minutes, 3 seconds" [ref=e612]:
+                        - /url: /watch?v=w6BOBsiVW3o&list=RDw6BOBsiVW3o&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha - Arijit Singh Song | Slowed And Reverb Lofi Mix
+                    - button "Action menu" [ref=e616]:
+                      - generic [ref=e619]:
+                        - img
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: 5.4M views
+                    - generic [ref=e624]: •3 years ago
+                - generic [ref=e625]:
+                  - link "Go to channel" [ref=e626]:
+                    - /url: /@IndianSlowedAndReverb
+                  - link "Indian Slowed And Reverb" [ref=e631]:
+                    - /url: /@IndianSlowedAndReverb
+                - generic [ref=e632]:
+                  - text: Thanks For Watching ❤️ .. Use Headphone For Better Experience.. Song Lyrics :- Waaqif toh huey tere dil ki baat se ...
+                  - tooltip "tooltip"
+            - generic [ref=e634]:
+              - link [ref=e636] [cursor=pointer]:
+                - /url: /watch?v=l15lNLNIwNg&list=RDl15lNLNIwNg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e638] [cursor=pointer]:
+                - generic [ref=e639]:
+                  - generic [ref=e640]:
+                    - heading "Bobby Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [level=3] [ref=e641]:
+                      - link "Bobby Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [ref=e642]:
+                        - /url: /watch?v=l15lNLNIwNg&list=RDl15lNLNIwNg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Bobby Imran, Arijit Singh - Tu Har Lamha (Lyrics)
+                    - button "Action menu" [ref=e646]:
+                      - generic [ref=e649]:
+                        - img
+                  - generic [ref=e652]:
+                    - generic [ref=e653]: 45K views
+                    - generic [ref=e654]: •11 days ago
+                - generic [ref=e655]:
+                  - link "Go to channel" [ref=e656]:
+                    - /url: /@IndieIndiaMusic
+                  - generic [ref=e657]:
+                    - link "Indie India" [ref=e661]:
+                      - /url: /@IndieIndiaMusic
+                    - img "Verified" [ref=e664]
+                - generic [ref=e666]:
+                  - generic [ref=e667]: "Bobby Imran, Arijit Singh - Tu Har Lamha Stream/Download ~ ~ Music INFO ~ Associated Performer: Bobby-Imran & Arijit Singh ..."
+                  - tooltip "tooltip"
+            - generic [ref=e669]:
+              - link [ref=e671] [cursor=pointer]:
+                - /url: /watch?v=76jNgcT8X4U&list=RD76jNgcT8X4U&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e673] [cursor=pointer]:
+                - generic [ref=e674]:
+                  - generic [ref=e675]:
+                    - heading "Tu Har Lamha Lyrics - Arijit Singh 5 minutes, 1 second" [level=3] [ref=e676]:
+                      - link "Tu Har Lamha Lyrics - Arijit Singh 5 minutes, 1 second" [ref=e677]:
+                        - /url: /watch?v=76jNgcT8X4U&list=RD76jNgcT8X4U&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha Lyrics - Arijit Singh
+                    - button "Action menu" [ref=e681]:
+                      - generic [ref=e684]:
+                        - img
+                  - generic [ref=e687]:
+                    - generic [ref=e688]: 923K views
+                    - generic [ref=e689]: •4 years ago
+                - generic [ref=e690]:
+                  - link "Go to channel" [ref=e691]:
+                    - /url: /@SuperhitMusicLyrics
+                  - generic [ref=e692]:
+                    - link "Superhit Music" [ref=e696]:
+                      - /url: /@SuperhitMusicLyrics
+                    - img "Verified" [ref=e699]
+                - generic [ref=e701]:
+                  - generic [ref=e702]: "Arijit Singh's Tu Har Lamha Lyrics from Khamoshiyan: An another Arijit song in Vishesh Films' movie starring Ali Fazal, Sapna ..."
+                  - tooltip "tooltip"
+            - generic [ref=e703]:
+              - generic [ref=e706]:
+                - img [ref=e708]
+                - heading "Shorts" [level=2] [ref=e711]
+              - generic [ref=e713]:
+                - generic [ref=e716]:
+                  - link [ref=e717] [cursor=pointer]:
+                    - /url: /shorts/d46Umn1_tFQ
+                  - generic [ref=e720] [cursor=pointer]:
+                    - 'link "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha" [ref=e721]':
+                      - /url: /shorts/d46Umn1_tFQ
+                    - generic [ref=e722]: 3.3K views
+                  - button "More actions" [ref=e724] [cursor=pointer]:
+                    - generic [ref=e728]:
+                      - img
+                - generic [ref=e734]:
+                  - link [ref=e735] [cursor=pointer]:
+                    - /url: /shorts/vsqRq71-Sw8
+                  - generic [ref=e738] [cursor=pointer]:
+                    - 'link "Tu har lamha #cover #bollywoodcoversongs #arijitsingh #coversong" [ref=e739]':
+                      - /url: /shorts/vsqRq71-Sw8
+                    - generic [ref=e740]: 78K views
+                  - button "More actions" [ref=e742] [cursor=pointer]:
+                    - generic [ref=e746]:
+                      - img
+                - generic [ref=e752]:
+                  - link [ref=e753] [cursor=pointer]:
+                    - /url: /shorts/o7XrS3p3B0U
+                  - generic [ref=e756] [cursor=pointer]:
+                    - 'link "Tu Har Lamha🥺 (From \"Khamoshiyan\") [Bobby-Imran & Arijit Singh] | Aesthetic Video 🥀 #lyrics #love🫀" [ref=e757]':
+                      - /url: /shorts/o7XrS3p3B0U
+                    - generic [ref=e758]: 29K views
+                  - button "More actions" [ref=e760] [cursor=pointer]:
+                    - generic [ref=e764]:
+                      - img
+                - generic [ref=e770]:
+                  - link [ref=e771] [cursor=pointer]:
+                    - /url: /shorts/dINJnXKCeUc
+                  - generic [ref=e774] [cursor=pointer]:
+                    - 'link "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha" [ref=e775]':
+                      - /url: /shorts/dINJnXKCeUc
+                    - generic [ref=e776]: 44K views
+                  - button "More actions" [ref=e778] [cursor=pointer]:
+                    - generic [ref=e782]:
+                      - img
+                - generic [ref=e788]:
+                  - link [ref=e789] [cursor=pointer]:
+                    - /url: /shorts/kHQcTp6yfpg
+                  - generic [ref=e792] [cursor=pointer]:
+                    - link "Infinity x Tu Har Lamha (Slowed & Reverb) | Relaxing Vibes" [ref=e793]:
+                      - /url: /shorts/kHQcTp6yfpg
+                    - generic [ref=e794]: 19K views
+                  - button "More actions" [ref=e796] [cursor=pointer]:
+                    - generic [ref=e800]:
+                      - img
+              - button "Show more" [ref=e807] [cursor=pointer]:
+                - generic [ref=e808]: Show more
+                - generic [ref=e812]:
+                  - img
+            - generic [ref=e817]:
+              - link [ref=e819] [cursor=pointer]:
+                - /url: /watch?v=1L2JJz0Kr-I&list=RD1L2JJz0Kr-I&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e821] [cursor=pointer]:
+                - generic [ref=e822]:
+                  - generic [ref=e823]:
+                    - heading "Tu Har Lamha - Lyrical Video | Khamoshiyan | Arijit Singh | Ali Fazal | Sapna Pabbi 4 minutes, 36 seconds" [level=3] [ref=e824]:
+                      - link "Tu Har Lamha - Lyrical Video | Khamoshiyan | Arijit Singh | Ali Fazal | Sapna Pabbi 4 minutes, 36 seconds" [ref=e825]:
+                        - /url: /watch?v=1L2JJz0Kr-I&list=RD1L2JJz0Kr-I&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha - Lyrical Video | Khamoshiyan | Arijit Singh | Ali Fazal | Sapna Pabbi
+                    - button "Action menu" [ref=e829]:
+                      - generic [ref=e832]:
+                        - img
+                  - generic [ref=e835]:
+                    - generic [ref=e836]: 11M views
+                    - generic [ref=e837]: •1 year ago
+                - generic [ref=e838]:
+                  - link "Go to channel" [ref=e839]:
+                    - /url: /@SonyMusicIndia
+                  - generic [ref=e840]:
+                    - link "Sony Music India" [ref=e844]:
+                      - /url: /@SonyMusicIndia
+                    - img "Verified" [ref=e847]
+                - generic [ref=e849]:
+                  - generic [ref=e850]: Tu Har Lamha is a soulful melody capturing love and longing, weaving timeless emotions into a mesmerizing composition, sung ...
+                  - tooltip "tooltip"
+            - generic [ref=e852]:
+              - link [ref=e854] [cursor=pointer]:
+                - /url: /watch?v=dg_YAfyWQb0&list=RDdg_YAfyWQb0&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e856] [cursor=pointer]:
+                - generic [ref=e857]:
+                  - generic [ref=e858]:
+                    - heading "तू हर लम्‍हा- खामोशियां पूरे गीत का नया वीडियो | अरिजीत सिंह | अली फज़ल | सपना फब्‍बी 2 minutes, 34 seconds" [level=3] [ref=e859]:
+                      - link "तू हर लम्‍हा- खामोशियां पूरे गीत का नया वीडियो | अरिजीत सिंह | अली फज़ल | सपना फब्‍बी 2 minutes, 34 seconds" [ref=e860]:
+                        - /url: /watch?v=dg_YAfyWQb0&list=RDdg_YAfyWQb0&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: तू हर लम्‍हा- खामोशियां पूरे गीत का नया वीडियो | अरिजीत सिंह | अली फज़ल | सपना फब्‍बी
+                    - button "Action menu" [ref=e864]:
+                      - generic [ref=e867]:
+                        - img
+                  - generic [ref=e870]:
+                    - generic [ref=e871]: 7.8M views
+                    - generic [ref=e872]: •10 years ago
+                - generic [ref=e873]:
+                  - link "Go to channel" [ref=e874]:
+                    - /url: /@SonyMusicIndia
+                  - generic [ref=e875]:
+                    - link "Sony Music India" [ref=e879]:
+                      - /url: /@SonyMusicIndia
+                    - img "Verified" [ref=e882]
+                - generic [ref=e884]:
+                  - text: सोनी म्यूजिक भारत SME- हिट के लिए घर। सदस्यता लें हमारे चैनल की और चार्ट बस्टर को बनते हुए देखें, ब्लाक बस्टर ...
+                  - tooltip "tooltip"
+            - generic [ref=e886]:
+              - link [ref=e888] [cursor=pointer]:
+                - /url: /watch?v=SOessajf_Ik&list=RDSOessajf_Ik&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e890] [cursor=pointer]:
+                - generic [ref=e891]:
+                  - generic [ref=e892]:
+                    - heading "Baatein Ye Kabhi Na Full Video - Khamoshiyan|Arijit Singh|Ali Fazal, Sapna|Jeet Gannguli 4 minutes, 16 seconds" [level=3] [ref=e893]:
+                      - link "Baatein Ye Kabhi Na Full Video - Khamoshiyan|Arijit Singh|Ali Fazal, Sapna|Jeet Gannguli 4 minutes, 16 seconds" [ref=e894]:
+                        - /url: /watch?v=SOessajf_Ik&list=RDSOessajf_Ik&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Baatein Ye Kabhi Na Full Video - Khamoshiyan|Arijit Singh|Ali Fazal, Sapna|Jeet Gannguli
+                    - button "Action menu" [ref=e898]:
+                      - generic [ref=e901]:
+                        - img
+                  - generic [ref=e904]:
+                    - generic [ref=e905]: 193M views
+                    - generic [ref=e906]: •10 years ago
+                - generic [ref=e907]:
+                  - link "Go to channel" [ref=e908]:
+                    - /url: /@sonymusicindiaVEVO
+                  - generic [ref=e909]:
+                    - link "SonyMusicIndiaVEVO" [ref=e913]:
+                      - /url: /@sonymusicindiaVEVO
+                    - img "Verified" [ref=e916]
+                - generic [ref=e918]:
+                  - text: "'Baatein Yeh Kabhi Na' from 'Khamoshiyan' showcases a quintessential sensual love moments Gurmeet Choudhary, Sapna ..."
+                  - tooltip "tooltip"
+            - generic [ref=e920]:
+              - heading "People also watched" [level=2] [ref=e923]:
+                - generic [ref=e925]: People also watched
+              - generic [ref=e927]:
+                - generic [ref=e928]:
+                  - generic [ref=e930]:
+                    - link [ref=e932] [cursor=pointer]:
+                      - /url: /watch?v=kpgOitbY5eU&list=RDkpgOitbY5eU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                    - generic [ref=e934] [cursor=pointer]:
+                      - generic [ref=e935]:
+                        - generic [ref=e936]:
+                          - heading "Har pal har lamha, Tujhe bhula diya 5 minutes, 31 seconds" [level=3] [ref=e937]:
+                            - link "Har pal har lamha, Tujhe bhula diya 5 minutes, 31 seconds" [ref=e938]:
+                              - /url: /watch?v=kpgOitbY5eU&list=RDkpgOitbY5eU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                              - text: Har pal har lamha, Tujhe bhula diya
+                          - button "Action menu" [ref=e942]:
+                            - generic [ref=e945]:
+                              - img
+                        - generic [ref=e948]:
+                          - generic [ref=e949]: 111K views
+                          - generic [ref=e950]: •1 year ago
+                      - generic [ref=e951]:
+                        - link "Go to channel" [ref=e952]:
+                          - /url: /@Ft.spotlight
+                        - link "spotlight" [ref=e957]:
+                          - /url: /@Ft.spotlight
+                  - generic [ref=e959]:
+                    - link [ref=e961] [cursor=pointer]:
+                      - /url: /watch?v=ZWAGn4yyRMM&list=RDZWAGn4yyRMM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                    - generic [ref=e963] [cursor=pointer]:
+                      - generic [ref=e964]:
+                        - generic [ref=e965]:
+                          - heading "तेरी मेरी कहानी फुल वीडियो | गब्बर इज बैक | अक्षय कुमार और करीना कपूर | प्यार रोमांस सांग 5 minutes, 35 seconds" [level=3] [ref=e966]:
+                            - link "तेरी मेरी कहानी फुल वीडियो | गब्बर इज बैक | अक्षय कुमार और करीना कपूर | प्यार रोमांस सांग 5 minutes, 35 seconds" [ref=e967]:
+                              - /url: /watch?v=ZWAGn4yyRMM&list=RDZWAGn4yyRMM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                              - text: तेरी मेरी कहानी फुल वीडियो | गब्बर इज बैक | अक्षय कुमार और करीना कपूर | प्यार रोमांस सांग
+                          - button "Action menu" [ref=e971]:
+                            - generic [ref=e974]:
+                              - img
+                        - generic [ref=e977]:
+                          - generic [ref=e978]: 231M views
+                          - generic [ref=e979]: •10 years ago
+                      - generic [ref=e980]:
+                        - link "Go to channel" [ref=e981]:
+                          - /url: /@zeemusiccompany
+                        - generic [ref=e982]:
+                          - link "Zee Music Company" [ref=e986]:
+                            - /url: /@zeemusiccompany
+                          - img "Verified" [ref=e989]
+                      - generic [ref=e991]:
+                        - text: Zee संगीत कंपनी भारत की अग्रणी टेलीविजन मीडिया और मनोरंजन कंपनियों का हिस्सा है। यह 171 से अधिक देशों में ...
+                        - tooltip "tooltip"
+                  - generic [ref=e993]:
+                    - link [ref=e995] [cursor=pointer]:
+                      - /url: /watch?v=61floBUAiTY&list=RD61floBUAiTY&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                    - generic [ref=e997] [cursor=pointer]:
+                      - generic [ref=e998]:
+                        - generic [ref=e999]:
+                          - heading "तू है की नहीं 'पूरा वीडियो गाना | रॉय | अंकित तिवारी | रणबीर कपूर, जैकलीन फर्नांडीज, टी-सीरीज़ 4 minutes, 19 seconds" [level=3] [ref=e1000]:
+                            - link "तू है की नहीं 'पूरा वीडियो गाना | रॉय | अंकित तिवारी | रणबीर कपूर, जैकलीन फर्नांडीज, टी-सीरीज़ 4 minutes, 19 seconds" [ref=e1001]:
+                              - /url: /watch?v=61floBUAiTY&list=RD61floBUAiTY&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                              - text: तू है की नहीं 'पूरा वीडियो गाना | रॉय | अंकित तिवारी | रणबीर कपूर, जैकलीन फर्नांडीज, टी-सीरीज़
+                          - button "Action menu" [ref=e1005]:
+                            - generic [ref=e1008]:
+                              - img
+                        - generic [ref=e1011]:
+                          - generic [ref=e1012]: 196M views
+                          - generic [ref=e1013]: •10 years ago
+                      - generic [ref=e1014]:
+                        - link "Go to channel" [ref=e1015]:
+                          - /url: /@tseries
+                        - generic [ref=e1016]:
+                          - link "T-Series" [ref=e1020]:
+                            - /url: /@tseries
+                          - img "Verified" [ref=e1023]
+                      - generic [ref=e1025]:
+                        - text: "\"\" \"संगीत की दुनिया को बदल सकते हैं।\" \"टी-सीरीज भारत की सबसे बड़ी संगीत लेबल और फिल्म स्टूडियो है, दुनिया ..."
+                        - tooltip "tooltip"
+                  - generic [ref=e1027]:
+                    - link [ref=e1029] [cursor=pointer]:
+                      - /url: /watch?v=xrSZLa14haA&list=RDxrSZLa14haA&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                    - generic [ref=e1031] [cursor=pointer]:
+                      - generic [ref=e1032]:
+                        - generic [ref=e1033]:
+                          - heading "Teri Jhuki Nazar Official Lyrical Video - Murder 3 | Pritam | Shafqat Amanat Ali | Bollywood Songs 5 minutes, 48 seconds" [level=3] [ref=e1034]:
+                            - link "Teri Jhuki Nazar Official Lyrical Video - Murder 3 | Pritam | Shafqat Amanat Ali | Bollywood Songs 5 minutes, 48 seconds" [ref=e1035]:
+                              - /url: /watch?v=xrSZLa14haA&list=RDxrSZLa14haA&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                              - text: Teri Jhuki Nazar Official Lyrical Video - Murder 3 | Pritam | Shafqat Amanat Ali | Bollywood Songs
+                          - button "Action menu" [ref=e1039]:
+                            - generic [ref=e1042]:
+                              - img
+                        - generic [ref=e1045]:
+                          - generic [ref=e1046]: 52M views
+                          - generic [ref=e1047]: •1 year ago
+                      - generic [ref=e1048]:
+                        - link "Go to channel" [ref=e1049]:
+                          - /url: /@SonyMusicIndia
+                        - generic [ref=e1050]:
+                          - link "Sony Music India" [ref=e1054]:
+                            - /url: /@SonyMusicIndia
+                          - img "Verified" [ref=e1057]
+                      - generic [ref=e1059]:
+                        - text: Immerse yourself in the mesmerizing lyrics of "Teri Jhuki Nazar" from Murder 3, beautifully sung by Shafqat Amanat Ali and ...
+                        - tooltip "tooltip"
+                - generic "+6 more" [ref=e1061] [cursor=pointer]
+            - generic [ref=e1063]:
+              - link [ref=e1065] [cursor=pointer]:
+                - /url: /watch?v=2XvrsnveIro&list=RD2XvrsnveIro&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1067] [cursor=pointer]:
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]:
+                    - heading "Arijit Singh - Tu Har Lamha (slowed & reverb) 5 minutes, 11 seconds" [level=3] [ref=e1070]:
+                      - link "Arijit Singh - Tu Har Lamha (slowed & reverb) 5 minutes, 11 seconds" [ref=e1071]:
+                        - /url: /watch?v=2XvrsnveIro&list=RD2XvrsnveIro&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Arijit Singh - Tu Har Lamha (slowed & reverb)
+                    - button "Action menu" [ref=e1075]:
+                      - generic [ref=e1078]:
+                        - img
+                  - generic [ref=e1081]:
+                    - generic [ref=e1082]: 853K views
+                    - generic [ref=e1083]: •4 years ago
+                - generic [ref=e1084]:
+                  - link "Go to channel" [ref=e1085]:
+                    - /url: /@audioandsky
+                  - generic [ref=e1086]:
+                    - link "audio and sky" [ref=e1090]:
+                      - /url: /@audioandsky
+                    - img "Verified" [ref=e1093]
+                - generic [ref=e1095]:
+                  - text: thank you everyone for all your love and support on my channel, ily please subscribe to my main music channel too ...
+                  - tooltip "tooltip"
+            - generic [ref=e1097]:
+              - link [ref=e1099] [cursor=pointer]:
+                - /url: /watch?v=qr5MwQCvSTo&list=RDqr5MwQCvSTo&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1101] [cursor=pointer]:
+                - generic [ref=e1102]:
+                  - generic [ref=e1103]:
+                    - heading "Tu Har Lamha (from 'khamoshiyan')-Lyrics 4 minutes, 33 seconds" [level=3] [ref=e1104]:
+                      - link "Tu Har Lamha (from 'khamoshiyan')-Lyrics 4 minutes, 33 seconds" [ref=e1105]:
+                        - /url: /watch?v=qr5MwQCvSTo&list=RDqr5MwQCvSTo&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha (from 'khamoshiyan')-Lyrics
+                    - button "Action menu" [ref=e1109]:
+                      - generic [ref=e1112]:
+                        - img
+                  - generic [ref=e1115]:
+                    - generic [ref=e1116]: 302K views
+                    - generic [ref=e1117]: •3 years ago
+                - generic [ref=e1118]:
+                  - link "Go to channel" [ref=e1119]:
+                    - /url: /@q1438
+                  - link "𝚀𝚞𝚎𝚎𝚗 𝚘𝚏 𝚕𝚢𝚛𝚒𝚌𝚜" [ref=e1124]:
+                    - /url: /@q1438
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: Tu Har Lamha song lyrics lyrics:- Waaqif toh huey tere dil ki baat se Chhupaya jise tune qaaynaat se Waaqif toh huey tere uss ...
+                  - tooltip "tooltip"
+            - generic [ref=e1128]:
+              - link [ref=e1130] [cursor=pointer]:
+                - /url: /watch?v=6d_gzgt6syU&list=RD6d_gzgt6syU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1132] [cursor=pointer]:
+                - generic [ref=e1133]:
+                  - generic [ref=e1134]:
+                    - heading "Tu Har Lamha (Lyrics) | Arijit Singh | 4 minutes, 31 seconds" [level=3] [ref=e1135]:
+                      - link "Tu Har Lamha (Lyrics) | Arijit Singh | 4 minutes, 31 seconds" [ref=e1136]:
+                        - /url: /watch?v=6d_gzgt6syU&list=RD6d_gzgt6syU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha (Lyrics) | Arijit Singh |
+                    - button "Action menu" [ref=e1140]:
+                      - generic [ref=e1143]:
+                        - img
+                  - generic [ref=e1146]:
+                    - generic [ref=e1147]: 40K views
+                    - generic [ref=e1148]: •2 years ago
+                - generic [ref=e1149]:
+                  - link "Go to channel" [ref=e1150]:
+                    - /url: /@lyricsmaster0906
+                  - link "Lyrics Master 💕" [ref=e1155]:
+                    - /url: /@lyricsmaster0906
+                - generic [ref=e1156]:
+                  - generic [ref=e1157]: Tu har lamha lyrics :- Waaqif toh huey tere dil ki baat se Chhupaya jise tune qaaynaat se Waaqif toh huey tere uss khayal se ...
+                  - tooltip "tooltip"
+            - generic [ref=e1159]:
+              - link [ref=e1161] [cursor=pointer]:
+                - /url: /watch?v=KhWj9ZNn6rc&list=RDKhWj9ZNn6rc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1163] [cursor=pointer]:
+                - generic [ref=e1164]:
+                  - generic [ref=e1165]:
+                    - heading "Tu Har Lamha | Khamoshiyan |Arijit Singh | Ali Fazal, Sapna | @SoulfulArijitSingh | 4K 4 minutes, 23 seconds" [level=3] [ref=e1166]:
+                      - link "Tu Har Lamha | Khamoshiyan |Arijit Singh | Ali Fazal, Sapna | @SoulfulArijitSingh | 4K 4 minutes, 23 seconds" [ref=e1167]:
+                        - /url: /watch?v=KhWj9ZNn6rc&list=RDKhWj9ZNn6rc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha | Khamoshiyan |Arijit Singh | Ali Fazal, Sapna | @SoulfulArijitSingh | 4K
+                    - button "Action menu" [ref=e1171]:
+                      - generic [ref=e1174]:
+                        - img
+                  - generic [ref=e1177]:
+                    - generic [ref=e1178]: 9M views
+                    - generic [ref=e1179]: •3 years ago
+                - generic [ref=e1180]:
+                  - link "Go to channel" [ref=e1181]:
+                    - /url: /@SonyMusicIndia
+                  - generic [ref=e1182]:
+                    - link "Sony Music India" [ref=e1186]:
+                      - /url: /@SonyMusicIndia
+                    - img "Verified" [ref=e1189]
+                - generic [ref=e1191]:
+                  - generic [ref=e1192]: "khamoshiyan #arijitsingh #dance Tu Har Lamha Song - Soulful Melody to Melt Your Heart Dive into the ocean of emotions ..."
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1195]:
+                  - generic [ref=e1196]: 4K
+            - generic [ref=e1198]:
+              - link [ref=e1200] [cursor=pointer]:
+                - /url: /watch?v=6Wmu-Z5QdHs&list=RD6Wmu-Z5QdHs&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1202] [cursor=pointer]:
+                - generic [ref=e1203]:
+                  - generic [ref=e1204]:
+                    - heading "Tu har lamha || cover - Vishal Thakur || Arijit Singh 2 minutes, 16 seconds" [level=3] [ref=e1205]:
+                      - link "Tu har lamha || cover - Vishal Thakur || Arijit Singh 2 minutes, 16 seconds" [ref=e1206]:
+                        - /url: /watch?v=6Wmu-Z5QdHs&list=RD6Wmu-Z5QdHs&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu har lamha || cover - Vishal Thakur || Arijit Singh
+                    - button "Action menu" [ref=e1210]:
+                      - generic [ref=e1213]:
+                        - img
+                  - generic [ref=e1216]:
+                    - generic [ref=e1217]: 68K views
+                    - generic [ref=e1218]: •2 years ago
+                - generic [ref=e1219]:
+                  - link "Go to channel" [ref=e1220]:
+                    - /url: /@vishalvocals
+                  - link "vishal vocals" [ref=e1225]:
+                    - /url: /@vishalvocals
+            - generic [ref=e1227]:
+              - link [ref=e1229] [cursor=pointer]:
+                - /url: /watch?v=1gx0Jw8RlUA&list=RD1gx0Jw8RlUA&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1231] [cursor=pointer]:
+                - generic [ref=e1232]:
+                  - generic [ref=e1233]:
+                    - heading "Tu Har Lamha (Lofi Flip )| Khamoshiyan | Arijit Singh| Ali Fazal, Lo-Fi 2307 & Arijit Singh 3 minutes, 36 seconds" [level=3] [ref=e1234]:
+                      - link "Tu Har Lamha (Lofi Flip )| Khamoshiyan | Arijit Singh| Ali Fazal, Lo-Fi 2307 & Arijit Singh 3 minutes, 36 seconds" [ref=e1235]:
+                        - /url: /watch?v=1gx0Jw8RlUA&list=RD1gx0Jw8RlUA&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha (Lofi Flip )| Khamoshiyan | Arijit Singh| Ali Fazal, Lo-Fi 2307 & Arijit Singh
+                    - button "Action menu" [ref=e1239]:
+                      - generic [ref=e1242]:
+                        - img
+                  - generic [ref=e1245]:
+                    - generic [ref=e1246]: 52K views
+                    - generic [ref=e1247]: •1 year ago
+                - generic [ref=e1248]:
+                  - link "Go to channel" [ref=e1249]:
+                    - /url: /@SonyMusicIndia
+                  - generic [ref=e1250]:
+                    - link "Sony Music India" [ref=e1254]:
+                      - /url: /@SonyMusicIndia
+                    - img "Verified" [ref=e1257]
+                - generic [ref=e1259]:
+                  - generic [ref=e1260]: Indulge in the Lofi Flip transformation of "Tu Har Lamha" from Khamoshiyan, featuring Ali Fazal and Sapna. Let the magical ...
+                  - tooltip "tooltip"
+            - generic [ref=e1262]:
+              - link [ref=e1264] [cursor=pointer]:
+                - /url: /watch?v=-8QLy2_kh8A&list=RD-8QLy2_kh8A&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1266] [cursor=pointer]:
+                - generic [ref=e1267]:
+                  - generic [ref=e1268]:
+                    - heading "Tu har lamha ( slowed + reverb ) || Arijit Singh songs || 1.43 a.m. 4 minutes, 50 seconds" [level=3] [ref=e1269]:
+                      - link "Tu har lamha ( slowed + reverb ) || Arijit Singh songs || 1.43 a.m. 4 minutes, 50 seconds" [ref=e1270]:
+                        - /url: /watch?v=-8QLy2_kh8A&list=RD-8QLy2_kh8A&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu har lamha ( slowed + reverb ) || Arijit Singh songs || 1.43 a.m.
+                    - button "Action menu" [ref=e1274]:
+                      - generic [ref=e1277]:
+                        - img
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]: 636K views
+                    - generic [ref=e1282]: •2 years ago
+                - generic [ref=e1283]:
+                  - link "Go to channel" [ref=e1284]:
+                    - /url: /@indraneel02
+                  - link "indraneelk" [ref=e1289]:
+                    - /url: /@indraneel02
+            - generic [ref=e1291]:
+              - link [ref=e1293] [cursor=pointer]:
+                - /url: /watch?v=cRF87lJZQ2c&list=RDcRF87lJZQ2c&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1295] [cursor=pointer]:
+                - generic [ref=e1296]:
+                  - generic [ref=e1297]:
+                    - heading "Tu har lamha (sped up) 4 minutes, 13 seconds" [level=3] [ref=e1298]:
+                      - link "Tu har lamha (sped up) 4 minutes, 13 seconds" [ref=e1299]:
+                        - /url: /watch?v=cRF87lJZQ2c&list=RDcRF87lJZQ2c&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu har lamha (sped up)
+                    - button "Action menu" [ref=e1303]:
+                      - generic [ref=e1306]:
+                        - img
+                  - generic [ref=e1309]:
+                    - generic [ref=e1310]: 27K views
+                    - generic [ref=e1311]: •1 year ago
+                - generic [ref=e1312]:
+                  - link "Go to channel" [ref=e1313]:
+                    - /url: /@sarahlxzzz
+                  - link "𝙎𝙖𝙧𝙖𝙝𝙇𝙭" [ref=e1318]:
+                    - /url: /@sarahlxzzz
+                - generic [ref=e1319]:
+                  - generic [ref=e1320]: "tu har lamha speed up sped up tu har lamha sped up bollywood songs Hindi desi edit edited #aesthetic #aestheticedits ..."
+                  - tooltip "tooltip"
+            - generic [ref=e1322]:
+              - link [ref=e1324] [cursor=pointer]:
+                - /url: /watch?v=0MCs4Jovkxs&list=RD0MCs4Jovkxs&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - generic [ref=e1326] [cursor=pointer]:
+                - generic [ref=e1327]:
+                  - generic [ref=e1328]:
+                    - heading "Tu Har Lamha 8D song | SSK EDIT | 720P QUALITY|SONY MUSIC INDIA| AriJit Singh. 4 minutes, 33 seconds" [level=3] [ref=e1329]:
+                      - link "Tu Har Lamha 8D song | SSK EDIT | 720P QUALITY|SONY MUSIC INDIA| AriJit Singh. 4 minutes, 33 seconds" [ref=e1330]:
+                        - /url: /watch?v=0MCs4Jovkxs&list=RD0MCs4Jovkxs&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                        - text: Tu Har Lamha 8D song | SSK EDIT | 720P QUALITY|SONY MUSIC INDIA| AriJit Singh.
+                    - button "Action menu" [ref=e1334]:
+                      - generic [ref=e1337]:
+                        - img
+                  - generic [ref=e1340]:
+                    - generic [ref=e1341]: 24K views
+                    - generic [ref=e1342]: •5 years ago
+                - generic [ref=e1343]:
+                  - link "Go to channel" [ref=e1344]:
+                    - /url: /@SuperSpaceKing
+                  - link "Super Space King" [ref=e1349]:
+                    - /url: /@SuperSpaceKing
+                - generic [ref=e1350]:
+                  - generic [ref=e1351]: TU HAR LAMHA 8D SONG MUSIC CREDIT- SME LICENSED BY- SONY MUSIC INDIA ARTIST INCLUDED - ARIJIT SINGH ...
+                  - tooltip "tooltip"
+  - generic [ref=e1377]:
+    - link "YouTube Video Player":
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA1Q9qiUxafmuOODM3LUPkuzp2QTVwuPZgwGQw8jqsxVkEAEgAGDlgoCA_CmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzZ3MvwOoAwTIAwqqBLsCT9Dw4vVrSfXlh6bB9bZehVA-3dQB0Q6jA9vT1XY_sKkT3ljpBQ4zr8QCS5kIzM3iz1Osl4mEBfVdyYJ9lUQtZ-UVB7kjm2-sTq_UQnfRSSlHYajLKDqge4LTfuS-ihwnXA9dYoVtwNBOcJDjtSb029_d6NBabyWI2QIGSN-WzLsPRj-nnQnborlmajRr5l2BTaYXT9wWKr6kV5_34teRMV3Ait5tupDJ5zWktQZPeU7kYB_Z0JwnfmPawQuIvuLSrNvVKm0e0I1zbaAwnur4Z6YTOyf6uL0JsaGdnjUV7oHBn6aq-5XV06QTC6_hiwTV9nu3UH_dB_veym99_xRYsYIL4ONZQ6VyHkNuyCygMeQ5Q60Qg_MExx0FgrFJ73fS0I6_s20usFcmOJA4pzIG0qDjgTpQ44ZgoIc6iAXGzM7cVpIFCAgTeIPLp_UYoAahAYAHnq_H6hiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzVoX3Y0U0NuOVRJqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRYqJiN6KKjkQOaCS5odHRwczovL2FwcHMubWljcm9zb2Z0LmNvbS9kZXRhaWwvOU5DQkNTWlNKUlNCsQlaVBt9EiioPMgJF8gJjwHICcIBugs6CAMQBRgEIAcoATAFQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwJzadALE-ALAdIMAhAB2gwlCgoQ4Jrm98z9xYNYEgIBAxoNGMbMztxWIIqmhN3DBUABSgIQH5oNAROqDQJJTsgNAdIN6ARodHRwczovL3Nwb3RpZnkuYXBwLmxpbmsvRnVCbkVuYTdyWWI_JTI0M3A9YV9nb29nbGVfYWR3b3JkcyYlMjRhbHdheXNfZGVlcGxpbms9ZmFsc2UmJTI0ZmFsbGJhY2tfdXJsPWh0dHBzOi8vYXBwcy5taWNyb3NvZnQuY29tL2RldGFpbC85TkNCQ1NaU0pSU0IlM0ZnYWRfc291cmNlJTNEMiUyNmdhZF9jYW1wYWlnbmlkJTNEMjMyNzk2NzQ5NTAmfmFkX3NldF9pZD0xODk5Nzg5NzI5MzgmfmNhbXBhaWduX2lkPTIzMjc5Njc0OTUwJn5jaGFubmVsPSZ-a2V5d29yZD0mfnBsYWNlbWVudD0mfmFkX2lkPXthZF9pZH0mfmNyZWF0aXZlX2lkPTc4NTAyMTc1MDE1MCZ-YWRfbmFtZT12aWRlb191aSZ-YWRfZ3JvdXBfbmFtZT1wYWlkc29jaWFsX2RlbWFuZGdlbl9pbl9kc2tfd2luZG93c19hcHBfYXBwaW5zdGFsbF8xcF9icm9hZF9ub25lX25vbmVfbm9uZV9vY3BtX2FwcGluc3RhbGxfbXVsdGlwbGVfZW4rbm90aW5zdGFsbGVkJn5jYW1wYWlnbj0yMDI1cTRfcGVyZm9ybWFuY2Vfc2luZ2xlX3BlcmZvcm1hbmNlbWFya2V0aW5nX2FwcGluc3RhbGxfZW4raW4raW5kaWEraW5kaWErMjAyNTExMjArZGVtYW5kZ2VuK2V4cGVyaW1lbnRhdGlvbitkZXNrdG9wK3dpbmRvd3Mrbm90aW5zdGFsbGVkuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXhAYh0dMcTF66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI-auN6KKjkQMVYCa3AB0SdjpLEAEYASAAEgLjZfD_BwE&num=1&cid=CAASswHkaDucw8SFN2U6j-rKBzS9n6Y_OqYc2dQXyNm9AgXxSkHCwz58jZ8DOVKaaw9eYpJJdy7ULEJMZ5MXciMHAaCLxuC5uNpCNMpeompyNuIB4aBeJu9P__oqqQjKWf4ekR7TDlUGyCFHqyBz0m6foYCn0B8UlUn1i9OKHp-YIrySOz-l4DtKcFBtxT2SLThJh_DGSTNaGKPpP9q20cGj3CWYY5ZMdoMp5ugCsDrYHXWIIKDDqg&ad_cpn=%5BCPN%5D&sig=AOD64_2cbupz5uZgDXS0cm-svrijpLbZRg&ctype=110&video_id=5h_v4SCn9TI&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+      - generic "YouTube Video Player" [ref=e1382] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic [ref=e1384]:
+            - button "Unmute" [ref=e1389] [cursor=pointer]:
+              - generic [ref=e1393]:
+                - img
+            - button "No captions are available for this video" [ref=e1398] [cursor=pointer]
+          - generic:
+            - generic "Time elapsed 0:00":
+              - generic:
+                - generic: 0:09
+```

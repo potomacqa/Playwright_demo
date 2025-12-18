@@ -1,0 +1,837 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [ref=e33]: Tu har lamha
+            - button "Clear search query" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - img
+          - button "Search" [ref=e42] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+        - generic [ref=e47]:
+          - button "Search with your voice" [ref=e49] [cursor=pointer]:
+            - generic [ref=e53]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e58]:
+        - button "Settings" [ref=e63] [cursor=pointer]:
+          - generic [ref=e66]:
+            - img
+        - link "Sign in" [ref=e69] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DTu%252Bhar%252Blamha&hl=en&ec=65620
+          - generic [ref=e73]:
+            - img
+          - generic [ref=e74]: Sign in
+  - navigation [ref=e78]:
+    - generic [ref=e79]:
+      - link "Home" [ref=e81] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e84]:
+          - img
+        - generic [ref=e85]: Home
+      - link "Shorts" [ref=e87] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e90]:
+          - img
+        - generic [ref=e91]: Shorts
+      - link "You" [ref=e93] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e96]:
+          - img
+        - generic [ref=e97]: You
+      - link "History" [ref=e99] [cursor=pointer]:
+        - /url: /feed/history
+        - generic [ref=e102]:
+          - img
+        - generic [ref=e103]: History
+  - generic [ref=e104]:
+    - text: •
+    - main [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e108]:
+          - generic [ref=e111]:
+            - tablist [ref=e113]:
+              - tab "All" [selected] [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]: All
+              - tab "Shorts" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Shorts
+              - tab "Videos" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: Videos
+              - tab "Unwatched" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142]: Unwatched
+              - tab "Watched" [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]: Watched
+              - tab "Recently uploaded" [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]: Recently uploaded
+              - tab "Live" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]: Live
+              - tab "Sped up" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]: Sped up
+              - tab "Karu haske" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]: Karu haske
+              - tab "English translation" [ref=e189] [cursor=pointer]:
+                - generic [ref=e190]: English translation
+              - tab "Remix" [ref=e197] [cursor=pointer]:
+                - generic [ref=e198]: Remix
+              - tab "Status" [ref=e205] [cursor=pointer]:
+                - generic [ref=e206]: Status
+              - tab "Guitar lesson" [ref=e213] [cursor=pointer]:
+                - generic [ref=e214]: Guitar lesson
+            - button "Next" [ref=e222] [cursor=pointer]
+          - generic [ref=e229]:
+            - button "Search filters" [ref=e231] [cursor=pointer]:
+              - generic [ref=e232]: Filters
+            - tooltip "tooltip"
+        - generic [ref=e243]:
+          - generic [ref=e245]:
+            - link [ref=e247] [cursor=pointer]:
+              - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+              - img [ref=e251]:
+                - generic [ref=e253]: 4:22
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e254] [cursor=pointer]:
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - heading "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran 4 minutes, 22 seconds" [level=3] [ref=e257]:
+                    - link "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran 4 minutes, 22 seconds" [ref=e258]:
+                      - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+                      - text: Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran
+                  - button "Action menu" [ref=e262]:
+                    - generic [ref=e265]:
+                      - img
+                - generic [ref=e268]:
+                  - generic [ref=e269]: 73M views
+                  - generic [ref=e270]: •10 years ago
+              - generic [ref=e271]:
+                - link "Go to channel" [ref=e272]:
+                  - /url: /@sonymusicindiaVEVO
+                - generic [ref=e274]:
+                  - link "SonyMusicIndiaVEVO" [ref=e278]:
+                    - /url: /@sonymusicindiaVEVO
+                  - img "Verified" [ref=e281]
+              - generic [ref=e283]:
+                - generic [ref=e284]: "'Tu Har Lamha' from 'Khamoshiyan' is a love ballad by Arijit Singh, composed by Bobby-Imran will rekindle the love in your ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e287]:
+                - generic [ref=e288]: 4K
+          - generic [ref=e290]:
+            - link [ref=e292] [cursor=pointer]:
+              - /url: /watch?v=GqR4gLsjEKc&list=RDGqR4gLsjEKc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+              - img [ref=e296]:
+                - generic [ref=e298]: 4:33
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - heading "तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ 4 minutes, 33 seconds" [level=3] [ref=e302]:
+                    - link "तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ 4 minutes, 33 seconds" [ref=e303]:
+                      - /url: /watch?v=GqR4gLsjEKc&list=RDGqR4gLsjEKc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: तू हर लम्‍हा- खामोशियां | अरिजीत सिंह | पूरे गीत का नया वीडियो, गीत के बोल के साथ
+                  - button "Action menu" [ref=e307]:
+                    - generic [ref=e310]:
+                      - img
+                - generic [ref=e313]:
+                  - generic [ref=e314]: 12M views
+                  - generic [ref=e315]: •10 years ago
+              - generic [ref=e316]:
+                - link "Go to channel" [ref=e317]:
+                  - /url: /@SonyMusicIndia
+                - generic [ref=e319]:
+                  - link "Sony Music India" [ref=e323]:
+                    - /url: /@SonyMusicIndia
+                  - img "Verified" [ref=e326]
+              - generic [ref=e328]:
+                - text: सोनी म्यूजिक भारत SME- हिट के लिए घर। सदस्यता लें हमारे चैनल की और चार्ट बस्टर को बनते हुए देखें, ब्लाक बस्टर ...
+                - tooltip "tooltip"
+          - generic [ref=e330]:
+            - link [ref=e332] [cursor=pointer]:
+              - /url: /watch?v=bOhbq1Nqi6E&list=RDbOhbq1Nqi6E&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+              - img [ref=e336]:
+                - generic [ref=e338]: 4:34
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e339] [cursor=pointer]:
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - heading "Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [level=3] [ref=e342]:
+                    - link "Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [ref=e343]:
+                      - /url: /watch?v=bOhbq1Nqi6E&list=RDbOhbq1Nqi6E&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+                      - text: Bobby-Imran, Arijit Singh - Tu Har Lamha (Lyrics)
+                  - button "Action menu" [ref=e347]:
+                    - generic [ref=e350]:
+                      - img
+                - generic [ref=e353]:
+                  - generic [ref=e354]: 784K views
+                  - generic [ref=e355]: •7 months ago
+              - generic [ref=e356]:
+                - link "Go to channel" [ref=e357]:
+                  - /url: /channel/UC
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /channel/UC
+              - generic [ref=e359]:
+                - generic [ref=e360]: "Bobby-Imran, Arijit Singh - Tu Har Lamha Listen Here: Discover similar songs on Spotify: https://seventyskye.in/spotify We are on: ..."
+                - tooltip "tooltip"
+          - generic [ref=e361]:
+            - generic [ref=e364]:
+              - img [ref=e366]
+              - heading "Shorts" [level=2] [ref=e369]
+            - generic [ref=e371]:
+              - generic [ref=e374]:
+                - link [ref=e375] [cursor=pointer]:
+                  - /url: /shorts/bNrDnaTv4HI
+                - generic [ref=e378] [cursor=pointer]:
+                  - 'link "When love speaks in silence, you know it’s true. 💫 #tuharlamha #arijitsingh #khamoshiyan" [ref=e379]':
+                    - /url: /shorts/bNrDnaTv4HI
+                  - generic [ref=e380]: 137K views
+                - button "More actions" [ref=e382] [cursor=pointer]:
+                  - generic [ref=e386]:
+                    - img
+              - generic [ref=e392]:
+                - link [ref=e393] [cursor=pointer]:
+                  - /url: /shorts/Ou-spsdFPis
+                - generic [ref=e396] [cursor=pointer]:
+                  - 'link "Tu har lamha, tu har jazba. 💖🎶 #arijitsingh #khamoshiyan #sapnapabbi #alifazal" [ref=e397]':
+                    - /url: /shorts/Ou-spsdFPis
+                  - generic [ref=e398]: 111K views
+                - button "More actions" [ref=e400] [cursor=pointer]:
+                  - generic [ref=e404]:
+                    - img
+              - generic [ref=e410]:
+                - link [ref=e411] [cursor=pointer]:
+                  - /url: /shorts/0nbhZG_JBlI
+                - generic [ref=e414] [cursor=pointer]:
+                  - 'link "When Arijit Singh sings, Tu Har Lamha becomes a feeling. 🎤💞 #tuharlamha #arijitsingh" [ref=e415]':
+                    - /url: /shorts/0nbhZG_JBlI
+                  - generic [ref=e416]: 367K views
+                - button "More actions" [ref=e418] [cursor=pointer]:
+                  - generic [ref=e422]:
+                    - img
+              - generic [ref=e428]:
+                - link [ref=e429] [cursor=pointer]:
+                  - /url: /shorts/-3rxHc_JCsM
+                - generic [ref=e432] [cursor=pointer]:
+                  - 'link "Tu Har Lamha || Arijit Singh || Bobby-Imran || #lyrics #tuharlamha #arijitsingh" [ref=e433]':
+                    - /url: /shorts/-3rxHc_JCsM
+                  - generic [ref=e434]: 114K views
+                - button "More actions" [ref=e436] [cursor=pointer]:
+                  - generic [ref=e440]:
+                    - img
+              - generic [ref=e446]:
+                - link [ref=e447] [cursor=pointer]:
+                  - /url: /shorts/coqovd-Gx_A
+                - generic [ref=e450] [cursor=pointer]:
+                  - 'link "Tu har lamha | Arijit Singh 🥰✨ #arijitsingh" [ref=e451]':
+                    - /url: /shorts/coqovd-Gx_A
+                  - generic [ref=e452]: 34K views
+                - button "More actions" [ref=e454] [cursor=pointer]:
+                  - generic [ref=e458]:
+                    - img
+            - button "Show more" [ref=e465] [cursor=pointer]:
+              - generic [ref=e466]: Show more
+              - generic [ref=e470]:
+                - img
+          - generic [ref=e475] [cursor=pointer]:
+            - link [ref=e476]:
+              - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=0gcJCbAEOCosWNin
+              - generic [ref=e488]: Mix
+            - generic [ref=e491]:
+              - heading "Mix - Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran" [level=3] [ref=e492]:
+                - link "Mix - Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran" [ref=e493]:
+                  - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1&pp=0gcJCbAEOCosWNin
+              - generic [ref=e495]:
+                - generic [ref=e497]: Arijit Singh, Bobby-Imran, Naved Zafar, and more
+                - link "Tu Har Lamha Full Video - Khamoshiyan | Arijit Singh | Ali Fazal, Sapna Pabbi | Bobby-Imran · 4:22" [ref=e501]:
+                  - /url: /watch?v=SdGL0qxgZGM&list=RDSdGL0qxgZGM&start_radio=1
+                - link "Subhan Allah - Khamoshiyan|Official Bollywood Lyrics|Anupam Amod · 4:33" [ref=e504]:
+                  - /url: /watch?v=2YiAPTPFisM&list=RDSdGL0qxgZGM&start_radio=1
+          - generic [ref=e507]:
+            - link [ref=e509] [cursor=pointer]:
+              - /url: /watch?v=w6BOBsiVW3o&list=RDw6BOBsiVW3o&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e511] [cursor=pointer]:
+              - generic [ref=e512]:
+                - generic [ref=e513]:
+                  - heading "Tu Har Lamha - Arijit Singh Song | Slowed And Reverb Lofi Mix 6 minutes, 3 seconds" [level=3] [ref=e514]:
+                    - link "Tu Har Lamha - Arijit Singh Song | Slowed And Reverb Lofi Mix 6 minutes, 3 seconds" [ref=e515]:
+                      - /url: /watch?v=w6BOBsiVW3o&list=RDw6BOBsiVW3o&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha - Arijit Singh Song | Slowed And Reverb Lofi Mix
+                  - button "Action menu" [ref=e519]:
+                    - generic [ref=e522]:
+                      - img
+                - generic [ref=e525]:
+                  - generic [ref=e526]: 5.4M views
+                  - generic [ref=e527]: •3 years ago
+              - generic [ref=e528]:
+                - link "Go to channel" [ref=e529]:
+                  - /url: /@IndianSlowedAndReverb
+                - link "Indian Slowed And Reverb" [ref=e534]:
+                  - /url: /@IndianSlowedAndReverb
+              - generic [ref=e535]:
+                - text: Thanks For Watching ❤️ .. Use Headphone For Better Experience.. Song Lyrics :- Waaqif toh huey tere dil ki baat se ...
+                - tooltip "tooltip"
+          - generic [ref=e537]:
+            - link [ref=e539] [cursor=pointer]:
+              - /url: /watch?v=l15lNLNIwNg&list=RDl15lNLNIwNg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e541] [cursor=pointer]:
+              - generic [ref=e542]:
+                - generic [ref=e543]:
+                  - heading "Bobby Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [level=3] [ref=e544]:
+                    - link "Bobby Imran, Arijit Singh - Tu Har Lamha (Lyrics) 4 minutes, 34 seconds" [ref=e545]:
+                      - /url: /watch?v=l15lNLNIwNg&list=RDl15lNLNIwNg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Bobby Imran, Arijit Singh - Tu Har Lamha (Lyrics)
+                  - button "Action menu" [ref=e549]:
+                    - generic [ref=e552]:
+                      - img
+                - generic [ref=e555]:
+                  - generic [ref=e556]: 45K views
+                  - generic [ref=e557]: •11 days ago
+              - generic [ref=e558]:
+                - link "Go to channel" [ref=e559]:
+                  - /url: /@IndieIndiaMusic
+                - generic [ref=e560]:
+                  - link "Indie India" [ref=e564]:
+                    - /url: /@IndieIndiaMusic
+                  - img "Verified" [ref=e567]
+              - generic [ref=e569]:
+                - generic [ref=e570]: "Bobby Imran, Arijit Singh - Tu Har Lamha Stream/Download ~ ~ Music INFO ~ Associated Performer: Bobby-Imran & Arijit Singh ..."
+                - tooltip "tooltip"
+          - generic [ref=e572]:
+            - link [ref=e574] [cursor=pointer]:
+              - /url: /watch?v=76jNgcT8X4U&list=RD76jNgcT8X4U&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e576] [cursor=pointer]:
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - heading "Tu Har Lamha Lyrics - Arijit Singh 5 minutes, 1 second" [level=3] [ref=e579]:
+                    - link "Tu Har Lamha Lyrics - Arijit Singh 5 minutes, 1 second" [ref=e580]:
+                      - /url: /watch?v=76jNgcT8X4U&list=RD76jNgcT8X4U&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha Lyrics - Arijit Singh
+                  - button "Action menu" [ref=e584]:
+                    - generic [ref=e587]:
+                      - img
+                - generic [ref=e590]:
+                  - generic [ref=e591]: 923K views
+                  - generic [ref=e592]: •4 years ago
+              - generic [ref=e593]:
+                - link "Go to channel" [ref=e594]:
+                  - /url: /@SuperhitMusicLyrics
+                - generic [ref=e595]:
+                  - link "Superhit Music" [ref=e599]:
+                    - /url: /@SuperhitMusicLyrics
+                  - img "Verified" [ref=e602]
+              - generic [ref=e604]:
+                - generic [ref=e605]: "Arijit Singh's Tu Har Lamha Lyrics from Khamoshiyan: An another Arijit song in Vishesh Films' movie starring Ali Fazal, Sapna ..."
+                - tooltip "tooltip"
+          - generic [ref=e606]:
+            - generic [ref=e609]:
+              - img [ref=e611]
+              - heading "Shorts" [level=2] [ref=e614]
+            - generic [ref=e616]:
+              - generic [ref=e619]:
+                - link [ref=e620] [cursor=pointer]:
+                  - /url: /shorts/d46Umn1_tFQ
+                - generic [ref=e623] [cursor=pointer]:
+                  - 'link "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha" [ref=e624]':
+                    - /url: /shorts/d46Umn1_tFQ
+                  - generic [ref=e625]: 3.3K views
+                - button "More actions" [ref=e627] [cursor=pointer]:
+                  - generic [ref=e631]:
+                    - img
+              - generic [ref=e637]:
+                - link [ref=e638] [cursor=pointer]:
+                  - /url: /shorts/vsqRq71-Sw8
+                - generic [ref=e641] [cursor=pointer]:
+                  - 'link "Tu har lamha #cover #bollywoodcoversongs #arijitsingh #coversong" [ref=e642]':
+                    - /url: /shorts/vsqRq71-Sw8
+                  - generic [ref=e643]: 78K views
+                - button "More actions" [ref=e645] [cursor=pointer]:
+                  - generic [ref=e649]:
+                    - img
+              - generic [ref=e655]:
+                - link [ref=e656] [cursor=pointer]:
+                  - /url: /shorts/o7XrS3p3B0U
+                - generic [ref=e659] [cursor=pointer]:
+                  - 'link "Tu Har Lamha🥺 (From \"Khamoshiyan\") [Bobby-Imran & Arijit Singh] | Aesthetic Video 🥀 #lyrics #love🫀" [ref=e660]':
+                    - /url: /shorts/o7XrS3p3B0U
+                  - generic [ref=e661]: 29K views
+                - button "More actions" [ref=e663] [cursor=pointer]:
+                  - generic [ref=e667]:
+                    - img
+              - generic [ref=e673]:
+                - link [ref=e674] [cursor=pointer]:
+                  - /url: /shorts/kHQcTp6yfpg
+                - generic [ref=e677] [cursor=pointer]:
+                  - link "Infinity x Tu Har Lamha (Slowed & Reverb) | Relaxing Vibes" [ref=e678]:
+                    - /url: /shorts/kHQcTp6yfpg
+                  - generic [ref=e679]: 19K views
+                - button "More actions" [ref=e681] [cursor=pointer]:
+                  - generic [ref=e685]:
+                    - img
+              - generic [ref=e691]:
+                - link [ref=e692] [cursor=pointer]:
+                  - /url: /shorts/nHMsczPMqcQ
+                - generic [ref=e695] [cursor=pointer]:
+                  - link "Tu Har Lamha - Khamoshiyan | Arijit Singh | New Full Song Lyric Video" [ref=e696]:
+                    - /url: /shorts/nHMsczPMqcQ
+                  - generic [ref=e697]: 7.8K views
+                - button "More actions" [ref=e699] [cursor=pointer]:
+                  - generic [ref=e703]:
+                    - img
+            - button "Show more" [ref=e710] [cursor=pointer]:
+              - generic [ref=e711]: Show more
+              - generic [ref=e715]:
+                - img
+          - generic [ref=e720]:
+            - link [ref=e722] [cursor=pointer]:
+              - /url: /watch?v=KhWj9ZNn6rc&list=RDKhWj9ZNn6rc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e724] [cursor=pointer]:
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - heading "Tu Har Lamha | Khamoshiyan |Arijit Singh | Ali Fazal, Sapna | @SoulfulArijitSingh | 4K 4 minutes, 23 seconds" [level=3] [ref=e727]:
+                    - link "Tu Har Lamha | Khamoshiyan |Arijit Singh | Ali Fazal, Sapna | @SoulfulArijitSingh | 4K 4 minutes, 23 seconds" [ref=e728]:
+                      - /url: /watch?v=KhWj9ZNn6rc&list=RDKhWj9ZNn6rc&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha | Khamoshiyan |Arijit Singh | Ali Fazal, Sapna | @SoulfulArijitSingh | 4K
+                  - button "Action menu" [ref=e732]:
+                    - generic [ref=e735]:
+                      - img
+                - generic [ref=e738]:
+                  - generic [ref=e739]: 9M views
+                  - generic [ref=e740]: •3 years ago
+              - generic [ref=e741]:
+                - link "Go to channel" [ref=e742]:
+                  - /url: /@SonyMusicIndia
+                - generic [ref=e743]:
+                  - link "Sony Music India" [ref=e747]:
+                    - /url: /@SonyMusicIndia
+                  - img "Verified" [ref=e750]
+              - generic [ref=e752]:
+                - generic [ref=e753]: "khamoshiyan #arijitsingh #dance Tu Har Lamha Song - Soulful Melody to Melt Your Heart Dive into the ocean of emotions ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e756]:
+                - generic [ref=e757]: 4K
+          - generic [ref=e759]:
+            - link [ref=e761] [cursor=pointer]:
+              - /url: /watch?v=dg_YAfyWQb0&list=RDdg_YAfyWQb0&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e763] [cursor=pointer]:
+              - generic [ref=e764]:
+                - generic [ref=e765]:
+                  - heading "तू हर लम्‍हा- खामोशियां पूरे गीत का नया वीडियो | अरिजीत सिंह | अली फज़ल | सपना फब्‍बी 2 minutes, 34 seconds" [level=3] [ref=e766]:
+                    - link "तू हर लम्‍हा- खामोशियां पूरे गीत का नया वीडियो | अरिजीत सिंह | अली फज़ल | सपना फब्‍बी 2 minutes, 34 seconds" [ref=e767]:
+                      - /url: /watch?v=dg_YAfyWQb0&list=RDdg_YAfyWQb0&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: तू हर लम्‍हा- खामोशियां पूरे गीत का नया वीडियो | अरिजीत सिंह | अली फज़ल | सपना फब्‍बी
+                  - button "Action menu" [ref=e771]:
+                    - generic [ref=e774]:
+                      - img
+                - generic [ref=e777]:
+                  - generic [ref=e778]: 7.8M views
+                  - generic [ref=e779]: •10 years ago
+              - generic [ref=e780]:
+                - link "Go to channel" [ref=e781]:
+                  - /url: /@SonyMusicIndia
+                - generic [ref=e782]:
+                  - link "Sony Music India" [ref=e786]:
+                    - /url: /@SonyMusicIndia
+                  - img "Verified" [ref=e789]
+              - generic [ref=e791]:
+                - text: सोनी म्यूजिक भारत SME- हिट के लिए घर। सदस्यता लें हमारे चैनल की और चार्ट बस्टर को बनते हुए देखें, ब्लाक बस्टर ...
+                - tooltip "tooltip"
+          - generic [ref=e793]:
+            - link [ref=e795] [cursor=pointer]:
+              - /url: /watch?v=SOessajf_Ik&list=RDSOessajf_Ik&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e797] [cursor=pointer]:
+              - generic [ref=e798]:
+                - generic [ref=e799]:
+                  - heading "Baatein Ye Kabhi Na Full Video - Khamoshiyan|Arijit Singh|Ali Fazal, Sapna|Jeet Gannguli 4 minutes, 16 seconds" [level=3] [ref=e800]:
+                    - link "Baatein Ye Kabhi Na Full Video - Khamoshiyan|Arijit Singh|Ali Fazal, Sapna|Jeet Gannguli 4 minutes, 16 seconds" [ref=e801]:
+                      - /url: /watch?v=SOessajf_Ik&list=RDSOessajf_Ik&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Baatein Ye Kabhi Na Full Video - Khamoshiyan|Arijit Singh|Ali Fazal, Sapna|Jeet Gannguli
+                  - button "Action menu" [ref=e805]:
+                    - generic [ref=e808]:
+                      - img
+                - generic [ref=e811]:
+                  - generic [ref=e812]: 193M views
+                  - generic [ref=e813]: •10 years ago
+              - generic [ref=e814]:
+                - link "Go to channel" [ref=e815]:
+                  - /url: /@sonymusicindiaVEVO
+                - generic [ref=e816]:
+                  - link "SonyMusicIndiaVEVO" [ref=e820]:
+                    - /url: /@sonymusicindiaVEVO
+                  - img "Verified" [ref=e823]
+              - generic [ref=e825]:
+                - text: "'Baatein Yeh Kabhi Na' from 'Khamoshiyan' showcases a quintessential sensual love moments Gurmeet Choudhary, Sapna ..."
+                - tooltip "tooltip"
+          - generic [ref=e827]:
+            - link [ref=e829] [cursor=pointer]:
+              - /url: /watch?v=6d_gzgt6syU&list=RD6d_gzgt6syU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e831] [cursor=pointer]:
+              - generic [ref=e832]:
+                - generic [ref=e833]:
+                  - heading "Tu Har Lamha (Lyrics) | Arijit Singh | 4 minutes, 31 seconds" [level=3] [ref=e834]:
+                    - link "Tu Har Lamha (Lyrics) | Arijit Singh | 4 minutes, 31 seconds" [ref=e835]:
+                      - /url: /watch?v=6d_gzgt6syU&list=RD6d_gzgt6syU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha (Lyrics) | Arijit Singh |
+                  - button "Action menu" [ref=e839]:
+                    - generic [ref=e842]:
+                      - img
+                - generic [ref=e845]:
+                  - generic [ref=e846]: 40K views
+                  - generic [ref=e847]: •2 years ago
+              - generic [ref=e848]:
+                - link "Go to channel" [ref=e849]:
+                  - /url: /@lyricsmaster0906
+                - link "Lyrics Master 💕" [ref=e854]:
+                  - /url: /@lyricsmaster0906
+              - generic [ref=e855]:
+                - generic [ref=e856]: Tu har lamha lyrics :- Waaqif toh huey tere dil ki baat se Chhupaya jise tune qaaynaat se Waaqif toh huey tere uss khayal se ...
+                - tooltip "tooltip"
+          - generic [ref=e858]:
+            - heading "People also watched" [level=2] [ref=e861]:
+              - generic [ref=e863]: People also watched
+            - generic [ref=e865]:
+              - generic [ref=e866]:
+                - generic [ref=e868]:
+                  - link [ref=e870] [cursor=pointer]:
+                    - /url: /watch?v=kpgOitbY5eU&list=RDkpgOitbY5eU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                  - generic [ref=e872] [cursor=pointer]:
+                    - generic [ref=e873]:
+                      - generic [ref=e874]:
+                        - heading "Har pal har lamha, Tujhe bhula diya 5 minutes, 31 seconds" [level=3] [ref=e875]:
+                          - link "Har pal har lamha, Tujhe bhula diya 5 minutes, 31 seconds" [ref=e876]:
+                            - /url: /watch?v=kpgOitbY5eU&list=RDkpgOitbY5eU&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                            - text: Har pal har lamha, Tujhe bhula diya
+                        - button "Action menu" [ref=e880]:
+                          - generic [ref=e883]:
+                            - img
+                      - generic [ref=e886]:
+                        - generic [ref=e887]: 111K views
+                        - generic [ref=e888]: •1 year ago
+                    - generic [ref=e889]:
+                      - link "Go to channel" [ref=e890]:
+                        - /url: /@Ft.spotlight
+                      - link "spotlight" [ref=e895]:
+                        - /url: /@Ft.spotlight
+                - generic [ref=e897]:
+                  - link [ref=e899] [cursor=pointer]:
+                    - /url: /watch?v=-Hb2DeHvvEg&list=RD-Hb2DeHvvEg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                  - generic [ref=e901] [cursor=pointer]:
+                    - generic [ref=e902]:
+                      - generic [ref=e903]:
+                        - heading "तुझे भूला दिया\" (पूरा गाना) अंजाना अंजानी | रणबीर कपूर, प्रियंका चोपड़ा 4 minutes, 19 seconds" [level=3] [ref=e904]:
+                          - link "तुझे भूला दिया\" (पूरा गाना) अंजाना अंजानी | रणबीर कपूर, प्रियंका चोपड़ा 4 minutes, 19 seconds" [ref=e905]:
+                            - /url: /watch?v=-Hb2DeHvvEg&list=RD-Hb2DeHvvEg&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                            - text: तुझे भूला दिया" (पूरा गाना) अंजाना अंजानी | रणबीर कपूर, प्रियंका चोपड़ा
+                        - button "Action menu" [ref=e909]:
+                          - generic [ref=e912]:
+                            - img
+                      - generic [ref=e915]:
+                        - generic [ref=e916]: 165M views
+                        - generic [ref=e917]: •14 years ago
+                    - generic [ref=e918]:
+                      - link "Go to channel" [ref=e919]:
+                        - /url: /@tseries
+                      - generic [ref=e920]:
+                        - link "T-Series" [ref=e924]:
+                          - /url: /@tseries
+                        - img "Verified" [ref=e927]
+                    - generic [ref=e929]:
+                      - text: "\"\" \"संगीत की दुनिया को बदल सकते हैं।\" \"टी-सीरीज भारत की सबसे बड़ी संगीत लेबल और फिल्म स्टूडियो है, दुनिया ..."
+                      - tooltip "tooltip"
+                - generic [ref=e931]:
+                  - link [ref=e933] [cursor=pointer]:
+                    - /url: /watch?v=ZWAGn4yyRMM&list=RDZWAGn4yyRMM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                  - generic [ref=e935] [cursor=pointer]:
+                    - generic [ref=e936]:
+                      - generic [ref=e937]:
+                        - heading "तेरी मेरी कहानी फुल वीडियो | गब्बर इज बैक | अक्षय कुमार और करीना कपूर | प्यार रोमांस सांग 5 minutes, 35 seconds" [level=3] [ref=e938]:
+                          - link "तेरी मेरी कहानी फुल वीडियो | गब्बर इज बैक | अक्षय कुमार और करीना कपूर | प्यार रोमांस सांग 5 minutes, 35 seconds" [ref=e939]:
+                            - /url: /watch?v=ZWAGn4yyRMM&list=RDZWAGn4yyRMM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                            - text: तेरी मेरी कहानी फुल वीडियो | गब्बर इज बैक | अक्षय कुमार और करीना कपूर | प्यार रोमांस सांग
+                        - button "Action menu" [ref=e943]:
+                          - generic [ref=e946]:
+                            - img
+                      - generic [ref=e949]:
+                        - generic [ref=e950]: 231M views
+                        - generic [ref=e951]: •10 years ago
+                    - generic [ref=e952]:
+                      - link "Go to channel" [ref=e953]:
+                        - /url: /@zeemusiccompany
+                      - generic [ref=e954]:
+                        - link "Zee Music Company" [ref=e958]:
+                          - /url: /@zeemusiccompany
+                        - img "Verified" [ref=e961]
+                    - generic [ref=e963]:
+                      - text: Zee संगीत कंपनी भारत की अग्रणी टेलीविजन मीडिया और मनोरंजन कंपनियों का हिस्सा है। यह 171 से अधिक देशों में ...
+                      - tooltip "tooltip"
+                - generic [ref=e965]:
+                  - link [ref=e967] [cursor=pointer]:
+                    - /url: /watch?v=8SYPKQMW_2Q&list=RD8SYPKQMW_2Q&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+                  - generic [ref=e969] [cursor=pointer]:
+                    - generic [ref=e970]:
+                      - generic [ref=e971]:
+                        - heading "Lyrical | Tum Ho Toh Song | Saiyaara | Ahaan, Aneet | Vishal Mishra, Hansika Pareek | Raj Shekhar 5 minutes, 17 seconds" [level=3] [ref=e972]:
+                          - link "Lyrical | Tum Ho Toh Song | Saiyaara | Ahaan, Aneet | Vishal Mishra, Hansika Pareek | Raj Shekhar 5 minutes, 17 seconds" [ref=e973]:
+                            - /url: /watch?v=8SYPKQMW_2Q&list=RD8SYPKQMW_2Q&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+                            - text: Lyrical | Tum Ho Toh Song | Saiyaara | Ahaan, Aneet | Vishal Mishra, Hansika Pareek | Raj Shekhar
+                        - button "Action menu" [ref=e977]:
+                          - generic [ref=e980]:
+                            - img
+                      - generic [ref=e983]:
+                        - generic [ref=e984]: 68M views
+                        - generic [ref=e985]: •4 months ago
+                    - generic [ref=e986]:
+                      - link "Go to channel" [ref=e987]:
+                        - /url: /@yrf
+                      - generic [ref=e988]:
+                        - link "YRF" [ref=e992]:
+                          - /url: /@yrf
+                        - img "Verified" [ref=e995]
+                    - generic [ref=e997]:
+                      - text: "When they're around, everything feels right. Listen to Tum Ho Toh Lyrical - a song that feels like home ▻ Subscribe Now: ..."
+                      - tooltip "tooltip"
+                    - img "4K" [ref=e1000]:
+                      - generic [ref=e1001]: 4K
+              - generic "+6 more" [ref=e1003] [cursor=pointer]
+          - generic [ref=e1005]:
+            - link [ref=e1007] [cursor=pointer]:
+              - /url: /watch?v=6Wmu-Z5QdHs&list=RD6Wmu-Z5QdHs&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+            - generic [ref=e1009] [cursor=pointer]:
+              - generic [ref=e1010]:
+                - generic [ref=e1011]:
+                  - heading "Tu har lamha || cover - Vishal Thakur || Arijit Singh 2 minutes, 16 seconds" [level=3] [ref=e1012]:
+                    - link "Tu har lamha || cover - Vishal Thakur || Arijit Singh 2 minutes, 16 seconds" [ref=e1013]:
+                      - /url: /watch?v=6Wmu-Z5QdHs&list=RD6Wmu-Z5QdHs&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB0gcJCSIKAYcqIYzv
+                      - text: Tu har lamha || cover - Vishal Thakur || Arijit Singh
+                  - button "Action menu" [ref=e1017]:
+                    - generic [ref=e1020]:
+                      - img
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]: 68K views
+                  - generic [ref=e1025]: •2 years ago
+              - generic [ref=e1026]:
+                - link "Go to channel" [ref=e1027]:
+                  - /url: /@vishalvocals
+                - link "vishal vocals" [ref=e1032]:
+                  - /url: /@vishalvocals
+          - generic [ref=e1034]:
+            - link [ref=e1036] [cursor=pointer]:
+              - /url: /watch?v=1gx0Jw8RlUA&list=RD1gx0Jw8RlUA&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1038] [cursor=pointer]:
+              - generic [ref=e1039]:
+                - generic [ref=e1040]:
+                  - heading "Tu Har Lamha (Lofi Flip )| Khamoshiyan | Arijit Singh| Ali Fazal, Lo-Fi 2307 & Arijit Singh 3 minutes, 36 seconds" [level=3] [ref=e1041]:
+                    - link "Tu Har Lamha (Lofi Flip )| Khamoshiyan | Arijit Singh| Ali Fazal, Lo-Fi 2307 & Arijit Singh 3 minutes, 36 seconds" [ref=e1042]:
+                      - /url: /watch?v=1gx0Jw8RlUA&list=RD1gx0Jw8RlUA&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha (Lofi Flip )| Khamoshiyan | Arijit Singh| Ali Fazal, Lo-Fi 2307 & Arijit Singh
+                  - button "Action menu" [ref=e1046]:
+                    - generic [ref=e1049]:
+                      - img
+                - generic [ref=e1052]:
+                  - generic [ref=e1053]: 52K views
+                  - generic [ref=e1054]: •1 year ago
+              - generic [ref=e1055]:
+                - link "Go to channel" [ref=e1056]:
+                  - /url: /@SonyMusicIndia
+                - generic [ref=e1057]:
+                  - link "Sony Music India" [ref=e1061]:
+                    - /url: /@SonyMusicIndia
+                  - img "Verified" [ref=e1064]
+              - generic [ref=e1066]:
+                - generic [ref=e1067]: Indulge in the Lofi Flip transformation of "Tu Har Lamha" from Khamoshiyan, featuring Ali Fazal and Sapna. Let the magical ...
+                - tooltip "tooltip"
+          - generic [ref=e1069]:
+            - link [ref=e1071] [cursor=pointer]:
+              - /url: /watch?v=1L2JJz0Kr-I&list=RD1L2JJz0Kr-I&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1073] [cursor=pointer]:
+              - generic [ref=e1074]:
+                - generic [ref=e1075]:
+                  - heading "Tu Har Lamha - Lyrical Video | Khamoshiyan | Arijit Singh | Ali Fazal | Sapna Pabbi 4 minutes, 36 seconds" [level=3] [ref=e1076]:
+                    - link "Tu Har Lamha - Lyrical Video | Khamoshiyan | Arijit Singh | Ali Fazal | Sapna Pabbi 4 minutes, 36 seconds" [ref=e1077]:
+                      - /url: /watch?v=1L2JJz0Kr-I&list=RD1L2JJz0Kr-I&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha - Lyrical Video | Khamoshiyan | Arijit Singh | Ali Fazal | Sapna Pabbi
+                  - button "Action menu" [ref=e1081]:
+                    - generic [ref=e1084]:
+                      - img
+                - generic [ref=e1087]:
+                  - generic [ref=e1088]: 11M views
+                  - generic [ref=e1089]: •1 year ago
+              - generic [ref=e1090]:
+                - link "Go to channel" [ref=e1091]:
+                  - /url: /@SonyMusicIndia
+                - generic [ref=e1092]:
+                  - link "Sony Music India" [ref=e1096]:
+                    - /url: /@SonyMusicIndia
+                  - img "Verified" [ref=e1099]
+              - generic [ref=e1101]:
+                - generic [ref=e1102]: Tu Har Lamha is a soulful melody capturing love and longing, weaving timeless emotions into a mesmerizing composition, sung ...
+                - tooltip "tooltip"
+          - generic [ref=e1104]:
+            - link [ref=e1106] [cursor=pointer]:
+              - /url: /watch?v=qr5MwQCvSTo&list=RDqr5MwQCvSTo&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1108] [cursor=pointer]:
+              - generic [ref=e1109]:
+                - generic [ref=e1110]:
+                  - heading "Tu Har Lamha (from 'khamoshiyan')-Lyrics 4 minutes, 33 seconds" [level=3] [ref=e1111]:
+                    - link "Tu Har Lamha (from 'khamoshiyan')-Lyrics 4 minutes, 33 seconds" [ref=e1112]:
+                      - /url: /watch?v=qr5MwQCvSTo&list=RDqr5MwQCvSTo&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha (from 'khamoshiyan')-Lyrics
+                  - button "Action menu" [ref=e1116]:
+                    - generic [ref=e1119]:
+                      - img
+                - generic [ref=e1122]:
+                  - generic [ref=e1123]: 302K views
+                  - generic [ref=e1124]: •3 years ago
+              - generic [ref=e1125]:
+                - link "Go to channel" [ref=e1126]:
+                  - /url: /@q1438
+                - link "𝚀𝚞𝚎𝚎𝚗 𝚘𝚏 𝚕𝚢𝚛𝚒𝚌𝚜" [ref=e1131]:
+                  - /url: /@q1438
+              - generic [ref=e1132]:
+                - generic [ref=e1133]: Tu Har Lamha song lyrics lyrics:- Waaqif toh huey tere dil ki baat se Chhupaya jise tune qaaynaat se Waaqif toh huey tere uss ...
+                - tooltip "tooltip"
+          - generic [ref=e1135]:
+            - link [ref=e1137] [cursor=pointer]:
+              - /url: /watch?v=-8QLy2_kh8A&list=RD-8QLy2_kh8A&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1139] [cursor=pointer]:
+              - generic [ref=e1140]:
+                - generic [ref=e1141]:
+                  - heading "Tu har lamha ( slowed + reverb ) || Arijit Singh songs || 1.43 a.m. 4 minutes, 50 seconds" [level=3] [ref=e1142]:
+                    - link "Tu har lamha ( slowed + reverb ) || Arijit Singh songs || 1.43 a.m. 4 minutes, 50 seconds" [ref=e1143]:
+                      - /url: /watch?v=-8QLy2_kh8A&list=RD-8QLy2_kh8A&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu har lamha ( slowed + reverb ) || Arijit Singh songs || 1.43 a.m.
+                  - button "Action menu" [ref=e1147]:
+                    - generic [ref=e1150]:
+                      - img
+                - generic [ref=e1153]:
+                  - generic [ref=e1154]: 636K views
+                  - generic [ref=e1155]: •2 years ago
+              - generic [ref=e1156]:
+                - link "Go to channel" [ref=e1157]:
+                  - /url: /@indraneel02
+                - link "indraneelk" [ref=e1162]:
+                  - /url: /@indraneel02
+          - generic [ref=e1164]:
+            - link [ref=e1166] [cursor=pointer]:
+              - /url: /watch?v=cRF87lJZQ2c&list=RDcRF87lJZQ2c&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1168] [cursor=pointer]:
+              - generic [ref=e1169]:
+                - generic [ref=e1170]:
+                  - heading "Tu har lamha (sped up) 4 minutes, 13 seconds" [level=3] [ref=e1171]:
+                    - link "Tu har lamha (sped up) 4 minutes, 13 seconds" [ref=e1172]:
+                      - /url: /watch?v=cRF87lJZQ2c&list=RDcRF87lJZQ2c&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu har lamha (sped up)
+                  - button "Action menu" [ref=e1176]:
+                    - generic [ref=e1179]:
+                      - img
+                - generic [ref=e1182]:
+                  - generic [ref=e1183]: 27K views
+                  - generic [ref=e1184]: •1 year ago
+              - generic [ref=e1185]:
+                - link "Go to channel" [ref=e1186]:
+                  - /url: /@sarahlxzzz
+                - link "𝙎𝙖𝙧𝙖𝙝𝙇𝙭" [ref=e1191]:
+                  - /url: /@sarahlxzzz
+              - generic [ref=e1192]:
+                - generic [ref=e1193]: "tu har lamha speed up sped up tu har lamha sped up bollywood songs Hindi desi edit edited #aesthetic #aestheticedits ..."
+                - tooltip "tooltip"
+          - generic [ref=e1195]:
+            - link [ref=e1197] [cursor=pointer]:
+              - /url: /watch?v=F2f3LzojKXM&list=RDF2f3LzojKXM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1199] [cursor=pointer]:
+              - generic [ref=e1200]:
+                - generic [ref=e1201]:
+                  - heading "Tu Har Lamha (Slowed Reverb)| Tu har lamha lofi | Main hoon ban chuka jeene ki ek wajah 6 minutes, 3 seconds" [level=3] [ref=e1202]:
+                    - link "Tu Har Lamha (Slowed Reverb)| Tu har lamha lofi | Main hoon ban chuka jeene ki ek wajah 6 minutes, 3 seconds" [ref=e1203]:
+                      - /url: /watch?v=F2f3LzojKXM&list=RDF2f3LzojKXM&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha (Slowed Reverb)| Tu har lamha lofi | Main hoon ban chuka jeene ki ek wajah
+                  - button "Action menu" [ref=e1207]:
+                    - generic [ref=e1210]:
+                      - img
+                - generic [ref=e1213]:
+                  - generic [ref=e1214]: 5.3K views
+                  - generic [ref=e1215]: •1 year ago
+              - generic [ref=e1216]:
+                - link "Go to channel" [ref=e1217]:
+                  - /url: /@LofiBeats08
+                - link "Lofi Beats" [ref=e1222]:
+                  - /url: /@LofiBeats08
+              - generic [ref=e1223]:
+                - generic [ref=e1224]: tu har lamha shorts tu har lamha WhatsApp status tu har lamha Arijit Singh tu har lamha videos main hoon ban chuka jeene ki ek ...
+                - tooltip "tooltip"
+          - generic [ref=e1226]:
+            - link [ref=e1228] [cursor=pointer]:
+              - /url: /watch?v=j5saCLzfIps&list=RDj5saCLzfIps&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+            - generic [ref=e1230] [cursor=pointer]:
+              - generic [ref=e1231]:
+                - generic [ref=e1232]:
+                  - heading "Tu Har Lamha (Without Music Vocals Only) | Arijit Singh | Raymuse 3 minutes, 51 seconds" [level=3] [ref=e1233]:
+                    - link "Tu Har Lamha (Without Music Vocals Only) | Arijit Singh | Raymuse 3 minutes, 51 seconds" [ref=e1234]:
+                      - /url: /watch?v=j5saCLzfIps&list=RDj5saCLzfIps&start_radio=1&pp=ygUMVHUgaGFyIGxhbWhhoAcB
+                      - text: Tu Har Lamha (Without Music Vocals Only) | Arijit Singh | Raymuse
+                  - button "Action menu" [ref=e1238]:
+                    - generic [ref=e1241]:
+                      - img
+                - generic [ref=e1244]:
+                  - generic [ref=e1245]: 61K views
+                  - generic [ref=e1246]: •2 years ago
+              - generic [ref=e1247]:
+                - link "Go to channel" [ref=e1248]:
+                  - /url: /@Raymuse_
+                - link "Raymuse" [ref=e1253]:
+                  - /url: /@Raymuse_
+              - generic [ref=e1254]:
+                - generic [ref=e1255]: Raymuse presents you Tu Har Lamha without music vocals only sung by Arijit Singh. Subscribe for more Arijit Singh songs ...
+                - tooltip "tooltip"
+          - generic [ref=e1257]:
+            - link [ref=e1259] [cursor=pointer]:
+              - /url: /shorts/dINJnXKCeUc
+            - generic [ref=e1261] [cursor=pointer]:
+              - generic [ref=e1262]:
+                - generic [ref=e1263]:
+                  - 'heading "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha by Lyrical_omkar18 44,298 views 1 year ago 29 seconds - play Short" [level=3] [ref=e1264]':
+                    - 'link "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha by Lyrical_omkar18 44,298 views 1 year ago 29 seconds - play Short" [ref=e1265]':
+                      - /url: /shorts/dINJnXKCeUc
+                      - text: "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha"
+                  - button "Action menu" [ref=e1269]:
+                    - generic [ref=e1272]:
+                      - img
+                - generic [ref=e1275]:
+                  - generic [ref=e1276]: 44K views
+                  - generic [ref=e1277]: •1 year ago
+              - generic [ref=e1278]:
+                - link "Go to channel" [ref=e1279]:
+                  - /url: /@Lyrical_omkar18
+                - link "Lyrical_omkar18" [ref=e1284]:
+                  - /url: /@Lyrical_omkar18
+              - generic [ref=e1285]:
+                - generic [ref=e1286]: "Waqif To Hue | Tu Har Lamha | Khamoshiyan | Arijit Singh | Ali Fazal,Sapna,Bobby-Imran #tuharlamha . . . . . . . . #arijitsingh ..."
+                - tooltip "tooltip"
+```
